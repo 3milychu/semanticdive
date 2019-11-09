@@ -29,9 +29,9 @@ User requirements <https://github.com/3milychu/semanticdive/tree/master/wirefram
 <br> Share and export
 
 ### Mockups
-<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/1.png?raw=true" width="100">
-<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/2.png?raw=true" width="100">
-<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/3.png?raw=true" width="100">
+<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/1.png?raw=true" width="200" display="inline-block">
+<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/2.png?raw=true" width="200" display="inline-block">
+<img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/3.png?raw=true" width="200" display="inline-block">
 
 ## Build
 Phase 1 <link>
