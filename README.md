@@ -29,9 +29,9 @@ User requirements <https://github.com/3milychu/semanticdive/tree/master/wirefram
 <br> Share and export
 
 ### Mockups
- ![alt test](wireframe/wireframe/1.png | width=200)
- ![alt test](wireframe/wireframe/2.png | width=200)
- ![alt test](wireframe/wireframe/3.png | width=200)
+ ![alt test](wireframe/wireframe/1.png)
+ ![alt test](wireframe/wireframe/2.png)
+ ![alt test](wireframe/wireframe/3.png)
 
 ## Build
 Phase 1 <link>
