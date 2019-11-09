@@ -1,0 +1,7 @@
+﻿index,1,2,3,4,5,6,7,8
+a,<h1>semanticdive</h1>,"<p>Visualize semantic associations from user
+research studies with automatic clustering</p>","<div class=""button>new project</div>",,,,,
+b,<h1>new project</h1>,"<p>Select a template data source, or upload
+your own. Formats accepted: .txt</p>","div class=""select""><div class=""option>- select data -</div><div class=""option>demo workshop</div><div class=""option>upload other</div></div>",,,,,
+c,<h1>new project</h1>,"<div class=""edit"">&#9998;</div>","<div id=""summary_results""></div>",,,,,
+d,,,,,,,,
