@@ -5,7 +5,8 @@ Interface for text2insight research tool
 https://www.overleaf.com/2515931983tskwrkxwmypt
 
 ## Wireframe
-Discovery exercises <link>
+User requirements <https://github.com/3milychu/semanticdive/tree/master/wireframe/user%20requirements>
+Wireframe <https://github.com/3milychu/semanticdive/tree/master/wireframe/wireframe>
 
 ### Top features
 <br> Color coded / icon association groups
