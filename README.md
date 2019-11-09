@@ -6,7 +6,7 @@ https://www.overleaf.com/2515931983tskwrkxwmypt
 
 ## Wireframe
 User requirements <https://github.com/3milychu/semanticdive/tree/master/wireframe/user%20requirements>
-Wireframe <https://github.com/3milychu/semanticdive/tree/master/wireframe/wireframe>
+<br>Wireframe <https://github.com/3milychu/semanticdive/tree/master/wireframe/wireframe>
 
 ### Top features
 <br> Color coded / icon association groups
