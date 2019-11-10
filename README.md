@@ -36,4 +36,4 @@ User requirements <https://github.com/3milychu/semanticdive/tree/master/wirefram
 </p>
 
 ## Build
-Phase 1 <link>
+Phase 1 <https://3milychu.github.io/semanticdive/build>
