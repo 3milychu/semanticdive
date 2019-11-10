@@ -1,0 +1,77 @@
+body, html {
+	top:0;
+	left:0;
+	margin:0;
+	font-family: 'PT Sans', sans-serif;
+}
+#menu {
+	float:right;
+	margin:2% 5%;
+	font-size:3em;
+	font-family:'Helvetica Neue', sans-serif;
+	font-weight:100;
+	animation: fade 0.8s ease-in-out;
+}
+#main {
+	width: 90%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+	width:50%;
+	animation: fadeIn 0.8s ease-in-out;
+}
+h1 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight:200;
+	font-size:4em;
+	max-width: 50%;
+	line-height:0.8em;
+}
+p {
+	max-width: 100%;
+	color:#666666;
+}
+.button {
+	padding:5% 2%;
+	font-size:1.5em;
+	border:0.05em solid #1d1d1d;
+/*	width:100%;*/
+	text-align:center;
+	font-family:'Helvetica Neue', sans-serif;
+	font-weight:400;
+	max-width: 100%;
+	cursor:pointer;
+	transition:0.25s ease-in-out;
+}
+.button:hover {
+	background-color:#1d1d1d;
+	color:white;
+}
+.option {
+	text-align: center;
+    padding: 5%;
+    border: 0.05em solid #CCCCCC;
+}
+@keyframes fadeIn {
+	0% {
+		opacity:0;
+		margin-top:10%;
+
+	}
+	100% {
+		opacity:1;
+		margin-top:0%;
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}

@@ -1,0 +1,4686 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {
+        "mode": "static",
+        "edge_default": {}
+    },
+    "nodes": [
+        {
+            "label": "metal",
+            "id": "metal",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "learning",
+            "id": "learning",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "illumination",
+            "id": "illumination",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "accuracy",
+            "id": "accuracy",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "russia",
+            "id": "russia",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "complex",
+            "id": "complex",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "von",
+            "id": "von",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "connecting",
+            "id": "connecting",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "voyage",
+            "id": "voyage",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "us",
+            "id": "us",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "digital",
+            "id": "digital",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "beams",
+            "id": "beams",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "trackers",
+            "id": "trackers",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "futuristic",
+            "id": "futuristic",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "different",
+            "id": "different",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "money",
+            "id": "money",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "time",
+            "id": "time",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "blast",
+            "id": "blast",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "visual",
+            "id": "visual",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "entrails",
+            "id": "entrails",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "retraction",
+            "id": "retraction",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "evolution",
+            "id": "evolution",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "key",
+            "id": "key",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "visit",
+            "id": "visit",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "writing",
+            "id": "writing",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "technology",
+            "id": "technology",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "moon",
+            "id": "moon",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "gaming",
+            "id": "gaming",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "automation",
+            "id": "automation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "exploration",
+            "id": "exploration",
+            "afinn_value": 1,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "cold",
+            "id": "cold",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "bounce",
+            "id": "bounce",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ex",
+            "id": "ex",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "engine",
+            "id": "engine",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "chemical",
+            "id": "chemical",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "jobs",
+            "id": "jobs",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "tablet",
+            "id": "tablet",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "male",
+            "id": "male",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "fiction",
+            "id": "fiction",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "detect",
+            "id": "detect",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "gun",
+            "id": "gun",
+            "afinn_value": -1,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "sights",
+            "id": "sights",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "advancement",
+            "id": "advancement",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "privacy",
+            "id": "privacy",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "big",
+            "id": "big",
+            "afinn_value": 1,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "live",
+            "id": "live",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "red",
+            "id": "red",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "lab",
+            "id": "lab",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "code",
+            "id": "code",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "split",
+            "id": "split",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "migration",
+            "id": "migration",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "surveillance",
+            "id": "surveillance",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "fear"
+        },
+        {
+            "label": "age",
+            "id": "age",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "jet",
+            "id": "jet",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "interaction",
+            "id": "interaction",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "impossible",
+            "id": "impossible",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "goal",
+            "id": "goal",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "terminator",
+            "id": "terminator",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "robots",
+            "id": "robots",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "pink",
+            "id": "pink",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "operating",
+            "id": "operating",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "interfaces",
+            "id": "interfaces",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "interface",
+            "id": "interface",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "quality",
+            "id": "quality",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "high",
+            "id": "high",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "spacecraft",
+            "id": "spacecraft",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "supercomputing",
+            "id": "supercomputing",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "transmission",
+            "id": "transmission",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "club",
+            "id": "club",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "checking",
+            "id": "checking",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "force",
+            "id": "force",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "art",
+            "id": "art",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "shadow",
+            "id": "shadow",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "earth",
+            "id": "earth",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "optics",
+            "id": "optics",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "cut",
+            "id": "cut",
+            "afinn_value": -1,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "apple",
+            "id": "apple",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ibm",
+            "id": "ibm",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "environment",
+            "id": "environment",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "change",
+            "id": "change",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "fear"
+        },
+        {
+            "label": "fire",
+            "id": "fire",
+            "afinn_value": -2,
+            "bing_value": "none",
+            "nrc_value": "fear"
+        },
+        {
+            "label": "shopping",
+            "id": "shopping",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "artificial",
+            "id": "artificial",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "potatoes",
+            "id": "potatoes",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "focus",
+            "id": "focus",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "physics",
+            "id": "physics",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "radiation",
+            "id": "radiation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "user",
+            "id": "user",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ground",
+            "id": "ground",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "parts",
+            "id": "parts",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "mirrors",
+            "id": "mirrors",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "shuttle",
+            "id": "shuttle",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "right",
+            "id": "right",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "work",
+            "id": "work",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "aerodynamics",
+            "id": "aerodynamics",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "spyglass",
+            "id": "spyglass",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "photons",
+            "id": "photons",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "innovation",
+            "id": "innovation",
+            "afinn_value": 1,
+            "bing_value": "positive",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "lucas",
+            "id": "lucas",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "keep",
+            "id": "keep",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "times",
+            "id": "times",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "household",
+            "id": "household",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "screens",
+            "id": "screens",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "hacking",
+            "id": "hacking",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "cutlery",
+            "id": "cutlery",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "spectators",
+            "id": "spectators",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "scanner",
+            "id": "scanner",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "dexterity",
+            "id": "dexterity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "weaponry",
+            "id": "weaponry",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "eye",
+            "id": "eye",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "rocket",
+            "id": "rocket",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anger"
+        },
+        {
+            "label": "nasa",
+            "id": "nasa",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "panel",
+            "id": "panel",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "legend",
+            "id": "legend",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "scintillate",
+            "id": "scintillate",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "martian",
+            "id": "martian",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "headlights",
+            "id": "headlights",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "intimidation",
+            "id": "intimidation",
+            "afinn_value": -2,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "coats",
+            "id": "coats",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "microsoft",
+            "id": "microsoft",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "debris",
+            "id": "debris",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "floyd",
+            "id": "floyd",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "wars",
+            "id": "wars",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "revolution",
+            "id": "revolution",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "neon",
+            "id": "neon",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "heat",
+            "id": "heat",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "obsolete",
+            "id": "obsolete",
+            "afinn_value": -2,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "human",
+            "id": "human",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "disk",
+            "id": "disk",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "android",
+            "id": "android",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "clouds",
+            "id": "clouds",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "distance",
+            "id": "distance",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "thinking",
+            "id": "thinking",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "sciences",
+            "id": "sciences",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "mass",
+            "id": "mass",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "mars",
+            "id": "mars",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "discovery",
+            "id": "discovery",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "manipulative",
+            "id": "manipulative",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "new",
+            "id": "new",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "fuel",
+            "id": "fuel",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "apollo",
+            "id": "apollo",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "astronauts",
+            "id": "astronauts",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "asymptote",
+            "id": "asymptote",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "gravity",
+            "id": "gravity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "particle",
+            "id": "particle",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "processing",
+            "id": "processing",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "focused",
+            "id": "focused",
+            "afinn_value": 2,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "computation",
+            "id": "computation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "colony",
+            "id": "colony",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "telescope",
+            "id": "telescope",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "frontier",
+            "id": "frontier",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "lists",
+            "id": "lists",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "acceleration",
+            "id": "acceleration",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "electromagnetic",
+            "id": "electromagnetic",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "connectivity",
+            "id": "connectivity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "v",
+            "id": "v",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "dessert",
+            "id": "dessert",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "empire",
+            "id": "empire",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "life",
+            "id": "life",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "curiosity",
+            "id": "curiosity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "transition",
+            "id": "transition",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "race",
+            "id": "race",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "inside",
+            "id": "inside",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "mirror",
+            "id": "mirror",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "trajectory",
+            "id": "trajectory",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "hal",
+            "id": "hal",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "generation",
+            "id": "generation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "exertion",
+            "id": "exertion",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "prognostic",
+            "id": "prognostic",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "mobility",
+            "id": "mobility",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "propulsion",
+            "id": "propulsion",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "energy",
+            "id": "energy",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "war",
+            "id": "war",
+            "afinn_value": -2,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "armstrong",
+            "id": "armstrong",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "toys",
+            "id": "toys",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "roles",
+            "id": "roles",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "reaction",
+            "id": "reaction",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "connections",
+            "id": "connections",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "cap",
+            "id": "cap",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "transportation",
+            "id": "transportation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "pew",
+            "id": "pew",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "tool",
+            "id": "tool",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "masterservant",
+            "id": "masterservant",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "intelligence",
+            "id": "intelligence",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "communicate",
+            "id": "communicate",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "common",
+            "id": "common",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "entertain",
+            "id": "entertain",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "track",
+            "id": "track",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "anticipation",
+            "id": "anticipation",
+            "afinn_value": 1,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "astronaut",
+            "id": "astronaut",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "wavelength",
+            "id": "wavelength",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "possibilities",
+            "id": "possibilities",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ray",
+            "id": "ray",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "cleanliness",
+            "id": "cleanliness",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "waste",
+            "id": "waste",
+            "afinn_value": -1,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "species",
+            "id": "species",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "font",
+            "id": "font",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "power",
+            "id": "power",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "teamwork",
+            "id": "teamwork",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "surgery",
+            "id": "surgery",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "information",
+            "id": "information",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "identity",
+            "id": "identity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "chain",
+            "id": "chain",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "lightsabre",
+            "id": "lightsabre",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "prism",
+            "id": "prism",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "monitor",
+            "id": "monitor",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "desktop",
+            "id": "desktop",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "adventure",
+            "id": "adventure",
+            "afinn_value": 2,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "shift",
+            "id": "shift",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "rules",
+            "id": "rules",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "weapons",
+            "id": "weapons",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "stories",
+            "id": "stories",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "duality",
+            "id": "duality",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "sympathetic",
+            "id": "sympathetic",
+            "afinn_value": 2,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "video",
+            "id": "video",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "utopia",
+            "id": "utopia",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "combustion",
+            "id": "combustion",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "expertise",
+            "id": "expertise",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "rainbow",
+            "id": "rainbow",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "tension",
+            "id": "tension",
+            "afinn_value": -1,
+            "bing_value": "negative",
+            "nrc_value": "anger"
+        },
+        {
+            "label": "germany",
+            "id": "germany",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "scientist",
+            "id": "scientist",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "childhoods",
+            "id": "childhoods",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "shiny",
+            "id": "shiny",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "search",
+            "id": "search",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "reflection",
+            "id": "reflection",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "iss",
+            "id": "iss",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "manufacturing",
+            "id": "manufacturing",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "understanding",
+            "id": "understanding",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "solo",
+            "id": "solo",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "error",
+            "id": "error",
+            "afinn_value": -2,
+            "bing_value": "negative",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "dead",
+            "id": "dead",
+            "afinn_value": -3,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ideas",
+            "id": "ideas",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "keys",
+            "id": "keys",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "science",
+            "id": "science",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "prophesy",
+            "id": "prophesy",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "fantasy",
+            "id": "fantasy",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "disperse",
+            "id": "disperse",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "surgical",
+            "id": "surgical",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "storage",
+            "id": "storage",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "corporations",
+            "id": "corporations",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "et",
+            "id": "et",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "extinction",
+            "id": "extinction",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "entertainment",
+            "id": "entertainment",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "scifi",
+            "id": "scifi",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "major",
+            "id": "major",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "system",
+            "id": "system",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "unit",
+            "id": "unit",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "society",
+            "id": "society",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "length",
+            "id": "length",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "boundaries",
+            "id": "boundaries",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "awe",
+            "id": "awe",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "saving",
+            "id": "saving",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "keyboard",
+            "id": "keyboard",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "wargames",
+            "id": "wargames",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "colorful",
+            "id": "colorful",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "neil",
+            "id": "neil",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "forced",
+            "id": "forced",
+            "afinn_value": -1,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "paradigm",
+            "id": "paradigm",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "photon",
+            "id": "photon",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "screen",
+            "id": "screen",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "global",
+            "id": "global",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "reading",
+            "id": "reading",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "capsule",
+            "id": "capsule",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "attack",
+            "id": "attack",
+            "afinn_value": -1,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "toxicity",
+            "id": "toxicity",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "circuits",
+            "id": "circuits",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "safety",
+            "id": "safety",
+            "afinn_value": 1,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "precision",
+            "id": "precision",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "processor",
+            "id": "processor",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "spectrum",
+            "id": "spectrum",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "sky",
+            "id": "sky",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "movies",
+            "id": "movies",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "measurement",
+            "id": "measurement",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "observer",
+            "id": "observer",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "escape",
+            "id": "escape",
+            "afinn_value": -1,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "experiment",
+            "id": "experiment",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "nomad",
+            "id": "nomad",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "wires",
+            "id": "wires",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "bar",
+            "id": "bar",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "disorder",
+            "id": "disorder",
+            "afinn_value": -2,
+            "bing_value": "negative",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "glasses",
+            "id": "glasses",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "thrust",
+            "id": "thrust",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "scan",
+            "id": "scan",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "green",
+            "id": "green",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "linear",
+            "id": "linear",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "liftoff",
+            "id": "liftoff",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "laser",
+            "id": "laser",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "smoke",
+            "id": "smoke",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "none"
+        },
+        {
+            "label": "travel",
+            "id": "travel",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "florida",
+            "id": "florida",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "progress",
+            "id": "progress",
+            "afinn_value": 2,
+            "bing_value": "positive",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "beyond",
+            "id": "beyond",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "surrender",
+            "id": "surrender",
+            "afinn_value": 0,
+            "bing_value": "negative",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "box",
+            "id": "box",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "machina",
+            "id": "machina",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "target",
+            "id": "target",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "beam",
+            "id": "beam",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "fast",
+            "id": "fast",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "stuff",
+            "id": "stuff",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "gendered",
+            "id": "gendered",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "text",
+            "id": "text",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "george",
+            "id": "george",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "games",
+            "id": "games",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "wave",
+            "id": "wave",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "codex",
+            "id": "codex",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "oracle",
+            "id": "oracle",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "booster",
+            "id": "booster",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "practical",
+            "id": "practical",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "mission",
+            "id": "mission",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "medicine",
+            "id": "medicine",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "division",
+            "id": "division",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "translation",
+            "id": "translation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "launchpad",
+            "id": "launchpad",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "tourism",
+            "id": "tourism",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "linux",
+            "id": "linux",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "engineering",
+            "id": "engineering",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "end",
+            "id": "end",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "novelty",
+            "id": "novelty",
+            "afinn_value": 0,
+            "bing_value": "positive",
+            "nrc_value": "none"
+        },
+        {
+            "label": "tom",
+            "id": "tom",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ribbon",
+            "id": "ribbon",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "idea",
+            "id": "idea",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "steve",
+            "id": "steve",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "zelda",
+            "id": "zelda",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "control",
+            "id": "control",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "phase",
+            "id": "phase",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "gender",
+            "id": "gender",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "star",
+            "id": "star",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "communication",
+            "id": "communication",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "measure",
+            "id": "measure",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "black",
+            "id": "black",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "han",
+            "id": "han",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "hope",
+            "id": "hope",
+            "afinn_value": 2,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "satellite",
+            "id": "satellite",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "small",
+            "id": "small",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "negative"
+        },
+        {
+            "label": "scanning",
+            "id": "scanning",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "customization",
+            "id": "customization",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "sake",
+            "id": "sake",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "vision",
+            "id": "vision",
+            "afinn_value": 1,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "building",
+            "id": "building",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "shield",
+            "id": "shield",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "animals",
+            "id": "animals",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "lens",
+            "id": "lens",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "vs",
+            "id": "vs",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "future",
+            "id": "future",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "light",
+            "id": "light",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "speed",
+            "id": "speed",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "night",
+            "id": "night",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "thought",
+            "id": "thought",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "anticipation"
+        },
+        {
+            "label": "vacation",
+            "id": "vacation",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "positive"
+        },
+        {
+            "label": "show",
+            "id": "show",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "braun",
+            "id": "braun",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "streamline",
+            "id": "streamline",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "explosion",
+            "id": "explosion",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "surprise"
+        },
+        {
+            "label": "failure",
+            "id": "failure",
+            "afinn_value": -2,
+            "bing_value": "negative",
+            "nrc_value": "sadness"
+        },
+        {
+            "label": "space",
+            "id": "space",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "labor",
+            "id": "labor",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "trust"
+        },
+        {
+            "label": "touch",
+            "id": "touch",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "ecology",
+            "id": "ecology",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        },
+        {
+            "label": "universe",
+            "id": "universe",
+            "afinn_value": 0,
+            "bing_value": "none",
+            "nrc_value": "none"
+        }
+    ],
+    "links": [
+        {
+            "id": "11",
+            "weight": 0.3856433629989624,
+            "source": "metal",
+            "target": "beams"
+        },
+        {
+            "id": "104",
+            "weight": 0.3190176784992218,
+            "source": "metal",
+            "target": "cutlery"
+        },
+        {
+            "id": "491",
+            "weight": 0.3972327411174774,
+            "source": "learning",
+            "target": "thinking"
+        },
+        {
+            "id": "1062",
+            "weight": 0.5342712998390198,
+            "source": "illumination",
+            "target": "light"
+        },
+        {
+            "id": "1004",
+            "weight": 0.4914188086986542,
+            "source": "illumination",
+            "target": "laser"
+        },
+        {
+            "id": "833",
+            "weight": 0.41703853011131287,
+            "source": "illumination",
+            "target": "headlights"
+        },
+        {
+            "id": "1342",
+            "weight": 0.5442461371421814,
+            "source": "accuracy",
+            "target": "precision"
+        },
+        {
+            "id": "1137",
+            "weight": 0.37795141339302063,
+            "source": "accuracy",
+            "target": "quality"
+        },
+        {
+            "id": "1650",
+            "weight": 0.6184030175209045,
+            "source": "russia",
+            "target": "germany"
+        },
+        {
+            "id": "2124",
+            "weight": 0.38183489441871643,
+            "source": "complex",
+            "target": "building"
+        },
+        {
+            "id": "2380",
+            "weight": 0.3539681136608124,
+            "source": "von",
+            "target": "et"
+        },
+        {
+            "id": "2669",
+            "weight": 0.5102858543395996,
+            "source": "connecting",
+            "target": "connections"
+        },
+        {
+            "id": "2646",
+            "weight": 0.4915856719017029,
+            "source": "connecting",
+            "target": "connectivity"
+        },
+        {
+            "id": "3051",
+            "weight": 0.4352857172489166,
+            "source": "voyage",
+            "target": "adventure"
+        },
+        {
+            "id": "3153",
+            "weight": 0.39815887808799744,
+            "source": "voyage",
+            "target": "mission"
+        },
+        {
+            "id": "3494",
+            "weight": 0.3671633303165436,
+            "source": "us",
+            "target": "stuff"
+        },
+        {
+            "id": "3287",
+            "weight": 0.30709826946258545,
+            "source": "us",
+            "target": "right"
+        },
+        {
+            "id": "3532",
+            "weight": 0.30292415618896484,
+            "source": "us",
+            "target": "sake"
+        },
+        {
+            "id": "3570",
+            "weight": 0.4413250982761383,
+            "source": "digital",
+            "target": "technology"
+        },
+        {
+            "id": "3759",
+            "weight": 0.4343872666358948,
+            "source": "digital",
+            "target": "video"
+        },
+        {
+            "id": "4191",
+            "weight": 0.7027807831764221,
+            "source": "beams",
+            "target": "beam"
+        },
+        {
+            "id": "4172",
+            "weight": 0.39879536628723145,
+            "source": "beams",
+            "target": "wires"
+        },
+        {
+            "id": "4447",
+            "weight": 0.323610782623291,
+            "source": "trackers",
+            "target": "monitor"
+        },
+        {
+            "id": "4647",
+            "weight": 0.45635485649108887,
+            "source": "futuristic",
+            "target": "robots"
+        },
+        {
+            "id": "4812",
+            "weight": 0.42353951930999756,
+            "source": "futuristic",
+            "target": "shiny"
+        },
+        {
+            "id": "5014",
+            "weight": 0.39151668548583984,
+            "source": "different",
+            "target": "change"
+        },
+        {
+            "id": "5579",
+            "weight": 0.30270320177078247,
+            "source": "money",
+            "target": "stuff"
+        },
+        {
+            "id": "5520",
+            "weight": 0.29470744729042053,
+            "source": "money",
+            "target": "corporations"
+        },
+        {
+            "id": "5724",
+            "weight": 0.43632781505584717,
+            "source": "time",
+            "target": "times"
+        },
+        {
+            "id": "5941",
+            "weight": 0.2918374240398407,
+            "source": "time",
+            "target": "end"
+        },
+        {
+            "id": "5971",
+            "weight": 0.27850618958473206,
+            "source": "time",
+            "target": "night"
+        },
+        {
+            "id": "6320",
+            "weight": 0.7815822958946228,
+            "source": "blast",
+            "target": "explosion"
+        },
+        {
+            "id": "6231",
+            "weight": 0.45983994007110596,
+            "source": "blast",
+            "target": "attack"
+        },
+        {
+            "id": "6129",
+            "weight": 0.33083823323249817,
+            "source": "blast",
+            "target": "inside"
+        },
+        {
+            "id": "6451",
+            "weight": 0.4080902934074402,
+            "source": "visual",
+            "target": "asymptote"
+        },
+        {
+            "id": "6380",
+            "weight": 0.3805989921092987,
+            "source": "visual",
+            "target": "art"
+        },
+        {
+            "id": "6745",
+            "weight": 0.2476983368396759,
+            "source": "entrails",
+            "target": "spyglass"
+        },
+        {
+            "id": "7166",
+            "weight": 0.3418290615081787,
+            "source": "retraction",
+            "target": "reaction"
+        },
+        {
+            "id": "7371",
+            "weight": 0.42835134267807007,
+            "source": "evolution",
+            "target": "advancement"
+        },
+        {
+            "id": "7587",
+            "weight": 0.4054087996482849,
+            "source": "evolution",
+            "target": "paradigm"
+        },
+        {
+            "id": "7379",
+            "weight": 0.3923254609107971,
+            "source": "evolution",
+            "target": "migration"
+        },
+        {
+            "id": "7489",
+            "weight": 0.3884073495864868,
+            "source": "evolution",
+            "target": "transition"
+        },
+        {
+            "id": "7493",
+            "weight": 0.35223597288131714,
+            "source": "evolution",
+            "target": "trajectory"
+        },
+        {
+            "id": "7912",
+            "weight": 0.5354756712913513,
+            "source": "key",
+            "target": "major"
+        },
+        {
+            "id": "7900",
+            "weight": 0.36544084548950195,
+            "source": "key",
+            "target": "keys"
+        },
+        {
+            "id": "8293",
+            "weight": 0.3547266125679016,
+            "source": "visit",
+            "target": "travel"
+        },
+        {
+            "id": "8602",
+            "weight": 0.611893892288208,
+            "source": "writing",
+            "target": "reading"
+        },
+        {
+            "id": "8378",
+            "weight": 0.40772151947021484,
+            "source": "writing",
+            "target": "fiction"
+        },
+        {
+            "id": "8772",
+            "weight": 0.5921424031257629,
+            "source": "technology",
+            "target": "innovation"
+        },
+        {
+            "id": "8703",
+            "weight": 0.4459029734134674,
+            "source": "technology",
+            "target": "automation"
+        },
+        {
+            "id": "8909",
+            "weight": 0.4275684058666229,
+            "source": "technology",
+            "target": "science"
+        },
+        {
+            "id": "8892",
+            "weight": 0.40940895676612854,
+            "source": "technology",
+            "target": "expertise"
+        },
+        {
+            "id": "9074",
+            "weight": 0.5295007228851318,
+            "source": "moon",
+            "target": "spacecraft"
+        },
+        {
+            "id": "9124",
+            "weight": 0.5081830024719238,
+            "source": "moon",
+            "target": "martian"
+        },
+        {
+            "id": "9280",
+            "weight": 0.49208492040634155,
+            "source": "moon",
+            "target": "sky"
+        },
+        {
+            "id": "9082",
+            "weight": 0.452750563621521,
+            "source": "moon",
+            "target": "earth"
+        },
+        {
+            "id": "9585",
+            "weight": 0.501926064491272,
+            "source": "gaming",
+            "target": "entertainment"
+        },
+        {
+            "id": "9645",
+            "weight": 0.34922486543655396,
+            "source": "gaming",
+            "target": "games"
+        },
+        {
+            "id": "9735",
+            "weight": 0.48786723613739014,
+            "source": "automation",
+            "target": "interfaces"
+        },
+        {
+            "id": "10026",
+            "weight": 0.44914254546165466,
+            "source": "automation",
+            "target": "streamline"
+        },
+        {
+            "id": "9947",
+            "weight": 0.3947141766548157,
+            "source": "automation",
+            "target": "measurement"
+        },
+        {
+            "id": "10141",
+            "weight": 0.4470270276069641,
+            "source": "exploration",
+            "target": "discovery"
+        },
+        {
+            "id": "10460",
+            "weight": 0.4738316833972931,
+            "source": "cold",
+            "target": "heat"
+        },
+        {
+            "id": "10828",
+            "weight": 0.31315046548843384,
+            "source": "bounce",
+            "target": "trajectory"
+        },
+        {
+            "id": "11319",
+            "weight": 0.2631986439228058,
+            "source": "ex",
+            "target": "star"
+        },
+        {
+            "id": "11413",
+            "weight": 0.45932814478874207,
+            "source": "engine",
+            "target": "aerodynamics"
+        },
+        {
+            "id": "11458",
+            "weight": 0.41644322872161865,
+            "source": "engine",
+            "target": "fuel"
+        },
+        {
+            "id": "11372",
+            "weight": 0.3696732521057129,
+            "source": "engine",
+            "target": "jet"
+        },
+        {
+            "id": "11910",
+            "weight": 0.4137035012245178,
+            "source": "chemical",
+            "target": "toxicity"
+        },
+        {
+            "id": "11789",
+            "weight": 0.3793036937713623,
+            "source": "chemical",
+            "target": "particle"
+        },
+        {
+            "id": "12197",
+            "weight": 0.43308383226394653,
+            "source": "jobs",
+            "target": "manufacturing"
+        },
+        {
+            "id": "12063",
+            "weight": 0.3624398708343506,
+            "source": "jobs",
+            "target": "work"
+        },
+        {
+            "id": "12326",
+            "weight": 0.36137324571609497,
+            "source": "jobs",
+            "target": "labor"
+        },
+        {
+            "id": "12500",
+            "weight": 0.49604347348213196,
+            "source": "tablet",
+            "target": "desktop"
+        },
+        {
+            "id": "12943",
+            "weight": 0.4611985981464386,
+            "source": "male",
+            "target": "gender"
+        },
+        {
+            "id": "12947",
+            "weight": 0.4196905791759491,
+            "source": "male",
+            "target": "black"
+        },
+        {
+            "id": "13183",
+            "weight": 0.5047366619110107,
+            "source": "fiction",
+            "target": "scifi"
+        },
+        {
+            "id": "13150",
+            "weight": 0.41040855646133423,
+            "source": "fiction",
+            "target": "stories"
+        },
+        {
+            "id": "13175",
+            "weight": 0.4000992774963379,
+            "source": "fiction",
+            "target": "fantasy"
+        },
+        {
+            "id": "13465",
+            "weight": 0.4790583848953247,
+            "source": "detect",
+            "target": "monitor"
+        },
+        {
+            "id": "13595",
+            "weight": 0.4540531039237976,
+            "source": "detect",
+            "target": "scanning"
+        },
+        {
+            "id": "13497",
+            "weight": 0.2948482930660248,
+            "source": "detect",
+            "target": "disperse"
+        },
+        {
+            "id": "13790",
+            "weight": 0.5486432909965515,
+            "source": "gun",
+            "target": "weapons"
+        },
+        {
+            "id": "14195",
+            "weight": 0.4126761257648468,
+            "source": "sights",
+            "target": "target"
+        },
+        {
+            "id": "13983",
+            "weight": 0.3587222695350647,
+            "source": "sights",
+            "target": "focus"
+        },
+        {
+            "id": "14314",
+            "weight": 0.4276468753814697,
+            "source": "advancement",
+            "target": "innovation"
+        },
+        {
+            "id": "14508",
+            "weight": 0.4191495478153229,
+            "source": "advancement",
+            "target": "progress"
+        },
+        {
+            "id": "14735",
+            "weight": 0.3654709458351135,
+            "source": "privacy",
+            "target": "identity"
+        },
+        {
+            "id": "14637",
+            "weight": 0.29434582591056824,
+            "source": "privacy",
+            "target": "hacking"
+        },
+        {
+            "id": "15095",
+            "weight": 0.6057686805725098,
+            "source": "big",
+            "target": "major"
+        },
+        {
+            "id": "15184",
+            "weight": 0.49586769938468933,
+            "source": "big",
+            "target": "small"
+        },
+        {
+            "id": "15515",
+            "weight": 0.3556149899959564,
+            "source": "live",
+            "target": "show"
+        },
+        {
+            "id": "15538",
+            "weight": 0.6084306836128235,
+            "source": "red",
+            "target": "pink"
+        },
+        {
+            "id": "15763",
+            "weight": 0.5360239744186401,
+            "source": "red",
+            "target": "green"
+        },
+        {
+            "id": "15809",
+            "weight": 0.48412540555000305,
+            "source": "red",
+            "target": "black"
+        },
+        {
+            "id": "16013",
+            "weight": 0.382450670003891,
+            "source": "lab",
+            "target": "scientist"
+        },
+        {
+            "id": "16313",
+            "weight": 0.4348253607749939,
+            "source": "code",
+            "target": "rules"
+        },
+        {
+            "id": "16405",
+            "weight": 0.3426517844200134,
+            "source": "code",
+            "target": "text"
+        },
+        {
+            "id": "16490",
+            "weight": 0.3141025900840759,
+            "source": "split",
+            "target": "cut"
+        },
+        {
+            "id": "17140",
+            "weight": 0.36061570048332214,
+            "source": "surveillance",
+            "target": "scanner"
+        },
+        {
+            "id": "17668",
+            "weight": 0.37092873454093933,
+            "source": "age",
+            "target": "gender"
+        },
+        {
+            "id": "18283",
+            "weight": 0.5432525277137756,
+            "source": "interaction",
+            "target": "communication"
+        },
+        {
+            "id": "18183",
+            "weight": 0.4174298346042633,
+            "source": "interaction",
+            "target": "understanding"
+        },
+        {
+            "id": "18174",
+            "weight": 0.34059569239616394,
+            "source": "interaction",
+            "target": "tension"
+        },
+        {
+            "id": "18131",
+            "weight": 0.2981593906879425,
+            "source": "interaction",
+            "target": "reaction"
+        },
+        {
+            "id": "18517",
+            "weight": 0.3594643473625183,
+            "source": "impossible",
+            "target": "forced"
+        },
+        {
+            "id": "18386",
+            "weight": 0.3420579433441162,
+            "source": "impossible",
+            "target": "obsolete"
+        },
+        {
+            "id": "18614",
+            "weight": 0.28700020909309387,
+            "source": "impossible",
+            "target": "failure"
+        },
+        {
+            "id": "18860",
+            "weight": 0.3986186683177948,
+            "source": "goal",
+            "target": "target"
+        },
+        {
+            "id": "18996",
+            "weight": 0.3468719720840454,
+            "source": "terminator",
+            "target": "android"
+        },
+        {
+            "id": "19298",
+            "weight": 0.4553416073322296,
+            "source": "robots",
+            "target": "android"
+        },
+        {
+            "id": "19343",
+            "weight": 0.34866899251937866,
+            "source": "robots",
+            "target": "toys"
+        },
+        {
+            "id": "19693",
+            "weight": 0.4905838668346405,
+            "source": "pink",
+            "target": "shiny"
+        },
+        {
+            "id": "19688",
+            "weight": 0.4605726897716522,
+            "source": "pink",
+            "target": "rainbow"
+        },
+        {
+            "id": "19594",
+            "weight": 0.4269384741783142,
+            "source": "pink",
+            "target": "neon"
+        },
+        {
+            "id": "19725",
+            "weight": 0.41663360595703125,
+            "source": "pink",
+            "target": "colorful"
+        },
+        {
+            "id": "19588",
+            "weight": 0.4090079963207245,
+            "source": "pink",
+            "target": "coats"
+        },
+        {
+            "id": "19790",
+            "weight": 0.39387351274490356,
+            "source": "pink",
+            "target": "ribbon"
+        },
+        {
+            "id": "19857",
+            "weight": 0.24166466295719147,
+            "source": "operating",
+            "target": "user"
+        },
+        {
+            "id": "20131",
+            "weight": 0.8314903974533081,
+            "source": "interfaces",
+            "target": "interface"
+        },
+        {
+            "id": "20223",
+            "weight": 0.5637891292572021,
+            "source": "interfaces",
+            "target": "connectivity"
+        },
+        {
+            "id": "20573",
+            "weight": 0.5159327387809753,
+            "source": "interface",
+            "target": "desktop"
+        },
+        {
+            "id": "20703",
+            "weight": 0.47664907574653625,
+            "source": "interface",
+            "target": "customization"
+        },
+        {
+            "id": "20636",
+            "weight": 0.4256870746612549,
+            "source": "interface",
+            "target": "processor"
+        },
+        {
+            "id": "20548",
+            "weight": 0.42140311002731323,
+            "source": "interface",
+            "target": "tool"
+        },
+        {
+            "id": "20857",
+            "weight": 0.43848809599876404,
+            "source": "quality",
+            "target": "cleanliness"
+        },
+        {
+            "id": "21258",
+            "weight": 0.28087568283081055,
+            "source": "high",
+            "target": "fast"
+        },
+        {
+            "id": "21396",
+            "weight": 0.6793703436851501,
+            "source": "spacecraft",
+            "target": "astronauts"
+        },
+        {
+            "id": "21346",
+            "weight": 0.6341200470924377,
+            "source": "spacecraft",
+            "target": "shuttle"
+        },
+        {
+            "id": "21541",
+            "weight": 0.6331773400306702,
+            "source": "spacecraft",
+            "target": "liftoff"
+        },
+        {
+            "id": "21404",
+            "weight": 0.5874784588813782,
+            "source": "spacecraft",
+            "target": "telescope"
+        },
+        {
+            "id": "21518",
+            "weight": 0.5372995734214783,
+            "source": "spacecraft",
+            "target": "capsule"
+        },
+        {
+            "id": "21365",
+            "weight": 0.5208287835121155,
+            "source": "spacecraft",
+            "target": "rocket"
+        },
+        {
+            "id": "21588",
+            "weight": 0.5154120922088623,
+            "source": "spacecraft",
+            "target": "satellite"
+        },
+        {
+            "id": "21425",
+            "weight": 0.5012169480323792,
+            "source": "spacecraft",
+            "target": "propulsion"
+        },
+        {
+            "id": "21564",
+            "weight": 0.41628554463386536,
+            "source": "spacecraft",
+            "target": "mission"
+        },
+        {
+            "id": "21634",
+            "weight": 0.40022337436676025,
+            "source": "supercomputing",
+            "target": "physics"
+        },
+        {
+            "id": "21696",
+            "weight": 0.39107558131217957,
+            "source": "supercomputing",
+            "target": "computation"
+        },
+        {
+            "id": "21996",
+            "weight": 0.37945544719696045,
+            "source": "transmission",
+            "target": "connectivity"
+        },
+        {
+            "id": "22413",
+            "weight": 0.31274500489234924,
+            "source": "club",
+            "target": "bar"
+        },
+        {
+            "id": "22461",
+            "weight": 0.2985997498035431,
+            "source": "club",
+            "target": "star"
+        },
+        {
+            "id": "22760",
+            "weight": 0.40791812539100647,
+            "source": "checking",
+            "target": "scanning"
+        },
+        {
+            "id": "22972",
+            "weight": 0.38155877590179443,
+            "source": "force",
+            "target": "forced"
+        },
+        {
+            "id": "22912",
+            "weight": 0.32824447751045227,
+            "source": "force",
+            "target": "power"
+        },
+        {
+            "id": "22832",
+            "weight": 0.3084920346736908,
+            "source": "force",
+            "target": "intimidation"
+        },
+        {
+            "id": "23422",
+            "weight": 0.37077516317367554,
+            "source": "shadow",
+            "target": "clouds"
+        },
+        {
+            "id": "23938",
+            "weight": 0.4645973742008209,
+            "source": "earth",
+            "target": "universe"
+        },
+        {
+            "id": "23667",
+            "weight": 0.36399194598197937,
+            "source": "earth",
+            "target": "ground"
+        },
+        {
+            "id": "24207",
+            "weight": 0.5431869626045227,
+            "source": "optics",
+            "target": "lens"
+        },
+        {
+            "id": "24152",
+            "weight": 0.4821692109107971,
+            "source": "optics",
+            "target": "laser"
+        },
+        {
+            "id": "24055",
+            "weight": 0.4689303934574127,
+            "source": "optics",
+            "target": "wavelength"
+        },
+        {
+            "id": "24014",
+            "weight": 0.4483974874019623,
+            "source": "optics",
+            "target": "telescope"
+        },
+        {
+            "id": "24249",
+            "weight": 0.29375043511390686,
+            "source": "cut",
+            "target": "keep"
+        },
+        {
+            "id": "24517",
+            "weight": 0.4700137674808502,
+            "source": "apple",
+            "target": "potatoes"
+        },
+        {
+            "id": "24590",
+            "weight": 0.41917869448661804,
+            "source": "apple",
+            "target": "dessert"
+        },
+        {
+            "id": "24599",
+            "weight": 0.3142017424106598,
+            "source": "apple",
+            "target": "hal"
+        },
+        {
+            "id": "24836",
+            "weight": 0.6701932549476624,
+            "source": "ibm",
+            "target": "microsoft"
+        },
+        {
+            "id": "25357",
+            "weight": 0.429976224899292,
+            "source": "environment",
+            "target": "ecology"
+        },
+        {
+            "id": "25488",
+            "weight": 0.6115488409996033,
+            "source": "change",
+            "target": "shift"
+        },
+        {
+            "id": "25418",
+            "weight": 0.38552752137184143,
+            "source": "change",
+            "target": "new"
+        },
+        {
+            "id": "25848",
+            "weight": 0.4645788371562958,
+            "source": "fire",
+            "target": "smoke"
+        },
+        {
+            "id": "25913",
+            "weight": 0.4344600439071655,
+            "source": "fire",
+            "target": "explosion"
+        },
+        {
+            "id": "26082",
+            "weight": 0.3423349857330322,
+            "source": "shopping",
+            "target": "entertainment"
+        },
+        {
+            "id": "26355",
+            "weight": 0.25857263803482056,
+            "source": "artificial",
+            "target": "surgical"
+        },
+        {
+            "id": "26816",
+            "weight": 0.8213136196136475,
+            "source": "focus",
+            "target": "focused"
+        },
+        {
+            "id": "26895",
+            "weight": 0.34413236379623413,
+            "source": "focus",
+            "target": "reflection"
+        },
+        {
+            "id": "26952",
+            "weight": 0.2994045913219452,
+            "source": "focus",
+            "target": "thrust"
+        },
+        {
+            "id": "27179",
+            "weight": 0.5928829312324524,
+            "source": "physics",
+            "target": "science"
+        },
+        {
+            "id": "27039",
+            "weight": 0.4829164445400238,
+            "source": "physics",
+            "target": "aerodynamics"
+        },
+        {
+            "id": "27088",
+            "weight": 0.39476385712623596,
+            "source": "physics",
+            "target": "gravity"
+        },
+        {
+            "id": "27372",
+            "weight": 0.4215797185897827,
+            "source": "radiation",
+            "target": "electromagnetic"
+        },
+        {
+            "id": "27698",
+            "weight": 0.4650566875934601,
+            "source": "user",
+            "target": "desktop"
+        },
+        {
+            "id": "28262",
+            "weight": 0.31236663460731506,
+            "source": "parts",
+            "target": "manufacturing"
+        },
+        {
+            "id": "28468",
+            "weight": 0.6311468482017517,
+            "source": "mirrors",
+            "target": "mirror"
+        },
+        {
+            "id": "28929",
+            "weight": 0.4224233329296112,
+            "source": "shuttle",
+            "target": "space"
+        },
+        {
+            "id": "29545",
+            "weight": 0.4590146243572235,
+            "source": "aerodynamics",
+            "target": "propulsion"
+        },
+        {
+            "id": "29789",
+            "weight": 0.4350813627243042,
+            "source": "spyglass",
+            "target": "telescope"
+        },
+        {
+            "id": "30163",
+            "weight": 0.8651074171066284,
+            "source": "photons",
+            "target": "photon"
+        },
+        {
+            "id": "30094",
+            "weight": 0.599602997303009,
+            "source": "photons",
+            "target": "wavelength"
+        },
+        {
+            "id": "30428",
+            "weight": 0.3877127170562744,
+            "source": "innovation",
+            "target": "global"
+        },
+        {
+            "id": "30602",
+            "weight": 0.558033287525177,
+            "source": "lucas",
+            "target": "armstrong"
+        },
+        {
+            "id": "31030",
+            "weight": 0.31645098328590393,
+            "source": "keep",
+            "target": "shield"
+        },
+        {
+            "id": "31253",
+            "weight": 0.3509531617164612,
+            "source": "times",
+            "target": "games"
+        },
+        {
+            "id": "31313",
+            "weight": 0.2634153366088867,
+            "source": "household",
+            "target": "cutlery"
+        },
+        {
+            "id": "31727",
+            "weight": 0.7728806734085083,
+            "source": "screens",
+            "target": "screen"
+        },
+        {
+            "id": "31579",
+            "weight": 0.21172305941581726,
+            "source": "screens",
+            "target": "panel"
+        },
+        {
+            "id": "32396",
+            "weight": 0.25213414430618286,
+            "source": "spectators",
+            "target": "race"
+        },
+        {
+            "id": "32824",
+            "weight": 0.6243391633033752,
+            "source": "scanner",
+            "target": "scanning"
+        },
+        {
+            "id": "33010",
+            "weight": 0.46262115240097046,
+            "source": "dexterity",
+            "target": "precision"
+        },
+        {
+            "id": "33204",
+            "weight": 0.7954660058021545,
+            "source": "weaponry",
+            "target": "weapons"
+        },
+        {
+            "id": "33197",
+            "weight": 0.43782341480255127,
+            "source": "weaponry",
+            "target": "lightsabre"
+        },
+        {
+            "id": "33248",
+            "weight": 0.3801252841949463,
+            "source": "weaponry",
+            "target": "wargames"
+        },
+        {
+            "id": "33177",
+            "weight": 0.32341569662094116,
+            "source": "weaponry",
+            "target": "intelligence"
+        },
+        {
+            "id": "33587",
+            "weight": 0.4365815222263336,
+            "source": "eye",
+            "target": "lens"
+        },
+        {
+            "id": "33808",
+            "weight": 0.33005523681640625,
+            "source": "rocket",
+            "target": "launchpad"
+        },
+        {
+            "id": "33802",
+            "weight": 0.265662282705307,
+            "source": "rocket",
+            "target": "booster"
+        },
+        {
+            "id": "34075",
+            "weight": 0.45986971259117126,
+            "source": "nasa",
+            "target": "han"
+        },
+        {
+            "id": "33917",
+            "weight": 0.4336928129196167,
+            "source": "nasa",
+            "target": "armstrong"
+        },
+        {
+            "id": "34566",
+            "weight": 0.500391960144043,
+            "source": "legend",
+            "target": "star"
+        },
+        {
+            "id": "34396",
+            "weight": 0.2988753616809845,
+            "source": "legend",
+            "target": "empire"
+        },
+        {
+            "id": "34671",
+            "weight": 0.35342398285865784,
+            "source": "scintillate",
+            "target": "entertain"
+        },
+        {
+            "id": "36015",
+            "weight": 0.583756685256958,
+            "source": "microsoft",
+            "target": "linux"
+        },
+        {
+            "id": "36228",
+            "weight": 0.3974139392375946,
+            "source": "debris",
+            "target": "smoke"
+        },
+        {
+            "id": "36134",
+            "weight": 0.36373358964920044,
+            "source": "debris",
+            "target": "waste"
+        },
+        {
+            "id": "36171",
+            "weight": 0.2812255918979645,
+            "source": "debris",
+            "target": "dead"
+        },
+        {
+            "id": "36352",
+            "weight": 0.49164390563964844,
+            "source": "floyd",
+            "target": "armstrong"
+        },
+        {
+            "id": "36589",
+            "weight": 0.7484659552574158,
+            "source": "wars",
+            "target": "war"
+        },
+        {
+            "id": "36540",
+            "weight": 0.3523787558078766,
+            "source": "wars",
+            "target": "revolution"
+        },
+        {
+            "id": "36869",
+            "weight": 0.45780640840530396,
+            "source": "revolution",
+            "target": "utopia"
+        },
+        {
+            "id": "36820",
+            "weight": 0.3648073971271515,
+            "source": "revolution",
+            "target": "generation"
+        },
+        {
+            "id": "37341",
+            "weight": 0.37466129660606384,
+            "source": "heat",
+            "target": "combustion"
+        },
+        {
+            "id": "37292",
+            "weight": 0.34104102849960327,
+            "source": "heat",
+            "target": "exertion"
+        },
+        {
+            "id": "37933",
+            "weight": 0.4011963903903961,
+            "source": "human",
+            "target": "animals"
+        },
+        {
+            "id": "38063",
+            "weight": 0.5015561580657959,
+            "source": "disk",
+            "target": "storage"
+        },
+        {
+            "id": "38030",
+            "weight": 0.4460999667644501,
+            "source": "disk",
+            "target": "desktop"
+        },
+        {
+            "id": "38378",
+            "weight": 0.4536973237991333,
+            "source": "android",
+            "target": "zelda"
+        },
+        {
+            "id": "38556",
+            "weight": 0.5776513814926147,
+            "source": "clouds",
+            "target": "sky"
+        },
+        {
+            "id": "38573",
+            "weight": 0.3936633765697479,
+            "source": "clouds",
+            "target": "smoke"
+        },
+        {
+            "id": "38763",
+            "weight": 0.3729783594608307,
+            "source": "distance",
+            "target": "length"
+        },
+        {
+            "id": "38860",
+            "weight": 0.34840771555900574,
+            "source": "distance",
+            "target": "speed"
+        },
+        {
+            "id": "39090",
+            "weight": 0.5893650054931641,
+            "source": "thinking",
+            "target": "thought"
+        },
+        {
+            "id": "39041",
+            "weight": 0.42602378129959106,
+            "source": "thinking",
+            "target": "stuff"
+        },
+        {
+            "id": "39203",
+            "weight": 0.68210768699646,
+            "source": "sciences",
+            "target": "science"
+        },
+        {
+            "id": "39499",
+            "weight": 0.3396710157394409,
+            "source": "mass",
+            "target": "wave"
+        },
+        {
+            "id": "39715",
+            "weight": 0.2654009163379669,
+            "source": "mars",
+            "target": "machina"
+        },
+        {
+            "id": "39868",
+            "weight": 0.3507387638092041,
+            "source": "discovery",
+            "target": "search"
+        },
+        {
+            "id": "40080",
+            "weight": 0.3604919910430908,
+            "source": "manipulative",
+            "target": "sympathetic"
+        },
+        {
+            "id": "40079",
+            "weight": 0.28904032707214355,
+            "source": "manipulative",
+            "target": "duality"
+        },
+        {
+            "id": "40481",
+            "weight": 0.4897453188896179,
+            "source": "fuel",
+            "target": "energy"
+        },
+        {
+            "id": "40853",
+            "weight": 0.4408264458179474,
+            "source": "apollo",
+            "target": "zelda"
+        },
+        {
+            "id": "40938",
+            "weight": 0.7332205176353455,
+            "source": "astronauts",
+            "target": "astronaut"
+        },
+        {
+            "id": "41252",
+            "weight": 0.44563576579093933,
+            "source": "asymptote",
+            "target": "linear"
+        },
+        {
+            "id": "41240",
+            "weight": 0.3813043236732483,
+            "source": "asymptote",
+            "target": "measurement"
+        },
+        {
+            "id": "41659",
+            "weight": 0.6051879525184631,
+            "source": "particle",
+            "target": "photon"
+        },
+        {
+            "id": "41553",
+            "weight": 0.5303271412849426,
+            "source": "particle",
+            "target": "electromagnetic"
+        },
+        {
+            "id": "41884",
+            "weight": 0.6367602944374084,
+            "source": "processing",
+            "target": "processor"
+        },
+        {
+            "id": "42502",
+            "weight": 0.3198782205581665,
+            "source": "colony",
+            "target": "society"
+        },
+        {
+            "id": "42925",
+            "weight": 0.38477328419685364,
+            "source": "frontier",
+            "target": "boundaries"
+        },
+        {
+            "id": "42952",
+            "weight": 0.3347927927970886,
+            "source": "frontier",
+            "target": "nomad"
+        },
+        {
+            "id": "43084",
+            "weight": 0.2522016763687134,
+            "source": "lists",
+            "target": "information"
+        },
+        {
+            "id": "43438",
+            "weight": 0.4753589630126953,
+            "source": "acceleration",
+            "target": "speed"
+        },
+        {
+            "id": "43833",
+            "weight": 0.4932379424571991,
+            "source": "connectivity",
+            "target": "communication"
+        },
+        {
+            "id": "43674",
+            "weight": 0.477884978055954,
+            "source": "connectivity",
+            "target": "mobility"
+        },
+        {
+            "id": "44053",
+            "weight": 0.767269492149353,
+            "source": "v",
+            "target": "vs"
+        },
+        {
+            "id": "44476",
+            "weight": 0.3499792218208313,
+            "source": "empire",
+            "target": "universe"
+        },
+        {
+            "id": "44319",
+            "weight": 0.34557169675827026,
+            "source": "empire",
+            "target": "chain"
+        },
+        {
+            "id": "44567",
+            "weight": 0.40666863322257996,
+            "source": "life",
+            "target": "society"
+        },
+        {
+            "id": "44541",
+            "weight": 0.3766769766807556,
+            "source": "life",
+            "target": "childhoods"
+        },
+        {
+            "id": "44838",
+            "weight": 0.3924584984779358,
+            "source": "curiosity",
+            "target": "novelty"
+        },
+        {
+            "id": "44771",
+            "weight": 0.3893648386001587,
+            "source": "curiosity",
+            "target": "awe"
+        },
+        {
+            "id": "44727",
+            "weight": 0.3349550664424896,
+            "source": "curiosity",
+            "target": "adventure"
+        },
+        {
+            "id": "44928",
+            "weight": 0.39327701926231384,
+            "source": "transition",
+            "target": "shift"
+        },
+        {
+            "id": "45106",
+            "weight": 0.3947596848011017,
+            "source": "race",
+            "target": "track"
+        },
+        {
+            "id": "45411",
+            "weight": 0.36613065004348755,
+            "source": "inside",
+            "target": "box"
+        },
+        {
+            "id": "45392",
+            "weight": 0.31639915704727173,
+            "source": "inside",
+            "target": "escape"
+        },
+        {
+            "id": "45518",
+            "weight": 0.4778707027435303,
+            "source": "mirror",
+            "target": "prism"
+        },
+        {
+            "id": "45539",
+            "weight": 0.3989805579185486,
+            "source": "mirror",
+            "target": "reflection"
+        },
+        {
+            "id": "45878",
+            "weight": 0.44326213002204895,
+            "source": "hal",
+            "target": "armstrong"
+        },
+        {
+            "id": "46203",
+            "weight": 0.36416202783584595,
+            "source": "generation",
+            "target": "wave"
+        },
+        {
+            "id": "46224",
+            "weight": 0.3340694308280945,
+            "source": "generation",
+            "target": "phase"
+        },
+        {
+            "id": "46557",
+            "weight": 0.3491911292076111,
+            "source": "prognostic",
+            "target": "measurement"
+        },
+        {
+            "id": "46881",
+            "weight": 0.43050655722618103,
+            "source": "propulsion",
+            "target": "combustion"
+        },
+        {
+            "id": "47051",
+            "weight": 0.48809531331062317,
+            "source": "energy",
+            "target": "power"
+        },
+        {
+            "id": "47485",
+            "weight": 0.6478345990180969,
+            "source": "armstrong",
+            "target": "neil"
+        },
+        {
+            "id": "47551",
+            "weight": 0.6092849373817444,
+            "source": "armstrong",
+            "target": "steve"
+        },
+        {
+            "id": "47548",
+            "weight": 0.5161674618721008,
+            "source": "armstrong",
+            "target": "tom"
+        },
+        {
+            "id": "47552",
+            "weight": 0.5129414200782776,
+            "source": "armstrong",
+            "target": "zelda"
+        },
+        {
+            "id": "47524",
+            "weight": 0.45133042335510254,
+            "source": "armstrong",
+            "target": "machina"
+        },
+        {
+            "id": "47411",
+            "weight": 0.4374474883079529,
+            "source": "armstrong",
+            "target": "masterservant"
+        },
+        {
+            "id": "47812",
+            "weight": 0.2451184242963791,
+            "source": "roles",
+            "target": "duality"
+        },
+        {
+            "id": "48483",
+            "weight": 0.2517622709274292,
+            "source": "cap",
+            "target": "small"
+        },
+        {
+            "id": "48619",
+            "weight": 0.4112600088119507,
+            "source": "transportation",
+            "target": "travel"
+        },
+        {
+            "id": "48763",
+            "weight": 0.2922040522098541,
+            "source": "pew",
+            "target": "keyboard"
+        },
+        {
+            "id": "49244",
+            "weight": 0.3330589234828949,
+            "source": "intelligence",
+            "target": "information"
+        },
+        {
+            "id": "49548",
+            "weight": 0.5804768800735474,
+            "source": "communicate",
+            "target": "communication"
+        },
+        {
+            "id": "49425",
+            "weight": 0.38142067193984985,
+            "source": "communicate",
+            "target": "monitor"
+        },
+        {
+            "id": "49577",
+            "weight": 0.34477725625038147,
+            "source": "communicate",
+            "target": "touch"
+        },
+        {
+            "id": "49703",
+            "weight": 0.3183702230453491,
+            "source": "common",
+            "target": "practical"
+        },
+        {
+            "id": "49812",
+            "weight": 0.3866630494594574,
+            "source": "entertain",
+            "target": "entertainment"
+        },
+        {
+            "id": "49919",
+            "weight": 0.28904348611831665,
+            "source": "entertain",
+            "target": "show"
+        },
+        {
+            "id": "50040",
+            "weight": 0.3703635632991791,
+            "source": "track",
+            "target": "fast"
+        },
+        {
+            "id": "50133",
+            "weight": 0.35143721103668213,
+            "source": "anticipation",
+            "target": "tension"
+        },
+        {
+            "id": "50525",
+            "weight": 0.36858507990837097,
+            "source": "wavelength",
+            "target": "spectrum"
+        },
+        {
+            "id": "50656",
+            "weight": 0.4417850971221924,
+            "source": "possibilities",
+            "target": "ideas"
+        },
+        {
+            "id": "50768",
+            "weight": 0.36302971839904785,
+            "source": "possibilities",
+            "target": "future"
+        },
+        {
+            "id": "50937",
+            "weight": 0.4138973355293274,
+            "source": "ray",
+            "target": "light"
+        },
+        {
+            "id": "51026",
+            "weight": 0.40764933824539185,
+            "source": "cleanliness",
+            "target": "safety"
+        },
+        {
+            "id": "51332",
+            "weight": 0.5096750259399414,
+            "source": "species",
+            "target": "extinction"
+        },
+        {
+            "id": "51431",
+            "weight": 0.48673030734062195,
+            "source": "species",
+            "target": "animals"
+        },
+        {
+            "id": "51448",
+            "weight": 0.4794536828994751,
+            "source": "species",
+            "target": "ecology"
+        },
+        {
+            "id": "51555",
+            "weight": 0.4575631022453308,
+            "source": "font",
+            "target": "text"
+        },
+        {
+            "id": "51569",
+            "weight": 0.3898181617259979,
+            "source": "font",
+            "target": "linux"
+        },
+        {
+            "id": "51907",
+            "weight": 0.37220171093940735,
+            "source": "teamwork",
+            "target": "communication"
+        },
+        {
+            "id": "51978",
+            "weight": 0.5874464511871338,
+            "source": "surgery",
+            "target": "surgical"
+        },
+        {
+            "id": "52271",
+            "weight": 0.36681169271469116,
+            "source": "identity",
+            "target": "duality"
+        },
+        {
+            "id": "52697",
+            "weight": 0.5054507851600647,
+            "source": "lightsabre",
+            "target": "zelda"
+        },
+        {
+            "id": "52872",
+            "weight": 0.5874922871589661,
+            "source": "prism",
+            "target": "lens"
+        },
+        {
+            "id": "53009",
+            "weight": 0.368445485830307,
+            "source": "monitor",
+            "target": "control"
+        },
+        {
+            "id": "53154",
+            "weight": 0.5137549638748169,
+            "source": "desktop",
+            "target": "linux"
+        },
+        {
+            "id": "53092",
+            "weight": 0.4540026783943176,
+            "source": "desktop",
+            "target": "keyboard"
+        },
+        {
+            "id": "53341",
+            "weight": 0.3641812205314636,
+            "source": "adventure",
+            "target": "vacation"
+        },
+        {
+            "id": "53221",
+            "weight": 0.24144122004508972,
+            "source": "adventure",
+            "target": "solo"
+        },
+        {
+            "id": "53545",
+            "weight": 0.3120279908180237,
+            "source": "rules",
+            "target": "boundaries"
+        },
+        {
+            "id": "54000",
+            "weight": 0.36331069469451904,
+            "source": "duality",
+            "target": "paradigm"
+        },
+        {
+            "id": "54438",
+            "weight": 0.45808014273643494,
+            "source": "utopia",
+            "target": "paradigm"
+        },
+        {
+            "id": "54428",
+            "weight": 0.37228426337242126,
+            "source": "utopia",
+            "target": "society"
+        },
+        {
+            "id": "54456",
+            "weight": 0.35722407698631287,
+            "source": "utopia",
+            "target": "experiment"
+        },
+        {
+            "id": "55180",
+            "weight": 0.5010537505149841,
+            "source": "germany",
+            "target": "florida"
+        },
+        {
+            "id": "55263",
+            "weight": 0.5372411012649536,
+            "source": "scientist",
+            "target": "science"
+        },
+        {
+            "id": "55303",
+            "weight": 0.34363657236099243,
+            "source": "scientist",
+            "target": "observer"
+        },
+        {
+            "id": "55775",
+            "weight": 0.3558494746685028,
+            "source": "search",
+            "target": "scanning"
+        },
+        {
+            "id": "56040",
+            "weight": 0.4970742166042328,
+            "source": "iss",
+            "target": "han"
+        },
+        {
+            "id": "56158",
+            "weight": 0.38908103108406067,
+            "source": "manufacturing",
+            "target": "engineering"
+        },
+        {
+            "id": "56589",
+            "weight": 0.2872913181781769,
+            "source": "error",
+            "target": "failure"
+        },
+        {
+            "id": "56813",
+            "weight": 0.5940991044044495,
+            "source": "ideas",
+            "target": "idea"
+        },
+        {
+            "id": "56830",
+            "weight": 0.40931373834609985,
+            "source": "ideas",
+            "target": "vision"
+        },
+        {
+            "id": "56800",
+            "weight": 0.3031533360481262,
+            "source": "ideas",
+            "target": "practical"
+        },
+        {
+            "id": "56872",
+            "weight": 0.3695014417171478,
+            "source": "keys",
+            "target": "keyboard"
+        },
+        {
+            "id": "57103",
+            "weight": 0.48844555020332336,
+            "source": "science",
+            "target": "ecology"
+        },
+        {
+            "id": "57061",
+            "weight": 0.45893585681915283,
+            "source": "science",
+            "target": "engineering"
+        },
+        {
+            "id": "57055",
+            "weight": 0.3644446134567261,
+            "source": "science",
+            "target": "medicine"
+        },
+        {
+            "id": "57176",
+            "weight": 0.3798767328262329,
+            "source": "prophesy",
+            "target": "oracle"
+        },
+        {
+            "id": "57549",
+            "weight": 0.3942354917526245,
+            "source": "surgical",
+            "target": "medicine"
+        },
+        {
+            "id": "57894",
+            "weight": 0.42975592613220215,
+            "source": "et",
+            "target": "machina"
+        },
+        {
+            "id": "58106",
+            "weight": 0.4111288785934448,
+            "source": "entertainment",
+            "target": "movies"
+        },
+        {
+            "id": "58222",
+            "weight": 0.48046672344207764,
+            "source": "scifi",
+            "target": "movies"
+        },
+        {
+            "id": "58273",
+            "weight": 0.4606710970401764,
+            "source": "scifi",
+            "target": "zelda"
+        },
+        {
+            "id": "58437",
+            "weight": 0.3851088583469391,
+            "source": "system",
+            "target": "paradigm"
+        },
+        {
+            "id": "58426",
+            "weight": 0.3036680817604065,
+            "source": "system",
+            "target": "unit"
+        },
+        {
+            "id": "58603",
+            "weight": 0.48424971103668213,
+            "source": "unit",
+            "target": "division"
+        },
+        {
+            "id": "58917",
+            "weight": 0.3169819116592407,
+            "source": "boundaries",
+            "target": "beyond"
+        },
+        {
+            "id": "59150",
+            "weight": 0.28124094009399414,
+            "source": "saving",
+            "target": "practical"
+        },
+        {
+            "id": "59209",
+            "weight": 0.4366280138492584,
+            "source": "keyboard",
+            "target": "screen"
+        },
+        {
+            "id": "59607",
+            "weight": 0.2734730541706085,
+            "source": "neil",
+            "target": "vs"
+        },
+        {
+            "id": "60435",
+            "weight": 0.2636919617652893,
+            "source": "toxicity",
+            "target": "disorder"
+        },
+        {
+            "id": "60527",
+            "weight": 0.37347719073295593,
+            "source": "circuits",
+            "target": "wires"
+        },
+        {
+            "id": "60721",
+            "weight": 0.4488050937652588,
+            "source": "precision",
+            "target": "laser"
+        },
+        {
+            "id": "60780",
+            "weight": 0.39641669392585754,
+            "source": "precision",
+            "target": "speed"
+        },
+        {
+            "id": "61208",
+            "weight": 0.42035236954689026,
+            "source": "measurement",
+            "target": "measure"
+        },
+        {
+            "id": "61390",
+            "weight": 0.36171233654022217,
+            "source": "escape",
+            "target": "shield"
+        },
+        {
+            "id": "61343",
+            "weight": 0.30048611760139465,
+            "source": "escape",
+            "target": "surrender"
+        },
+        {
+            "id": "61881",
+            "weight": 0.44849807024002075,
+            "source": "glasses",
+            "target": "lens"
+        },
+        {
+            "id": "62029",
+            "weight": 0.7109992504119873,
+            "source": "scan",
+            "target": "scanning"
+        },
+        {
+            "id": "62289",
+            "weight": 0.4319770038127899,
+            "source": "laser",
+            "target": "beam"
+        },
+        {
+            "id": "62484",
+            "weight": 0.4487341344356537,
+            "source": "travel",
+            "target": "vacation"
+        },
+        {
+            "id": "62449",
+            "weight": 0.3785233199596405,
+            "source": "travel",
+            "target": "tourism"
+        },
+        {
+            "id": "62507",
+            "weight": 0.48858821392059326,
+            "source": "florida",
+            "target": "george"
+        },
+        {
+            "id": "62846",
+            "weight": 0.37305527925491333,
+            "source": "machina",
+            "target": "oracle"
+        },
+        {
+            "id": "63075",
+            "weight": 0.4735133945941925,
+            "source": "fast",
+            "target": "speed"
+        },
+        {
+            "id": "63176",
+            "weight": 0.6162465810775757,
+            "source": "gendered",
+            "target": "gender"
+        },
+        {
+            "id": "63221",
+            "weight": 0.4388839900493622,
+            "source": "text",
+            "target": "translation"
+        },
+        {
+            "id": "63289",
+            "weight": 0.6792418360710144,
+            "source": "george",
+            "target": "steve"
+        },
+        {
+            "id": "63447",
+            "weight": 0.40198811888694763,
+            "source": "codex",
+            "target": "translation"
+        },
+        {
+            "id": "63683",
+            "weight": 0.3864069879055023,
+            "source": "mission",
+            "target": "vision"
+        },
+        {
+            "id": "63953",
+            "weight": 0.49152231216430664,
+            "source": "linux",
+            "target": "zelda"
+        },
+        {
+            "id": "64227",
+            "weight": 0.5111373066902161,
+            "source": "idea",
+            "target": "thought"
+        },
+        {
+            "id": "64305",
+            "weight": 0.36366745829582214,
+            "source": "zelda",
+            "target": "braun"
+        },
+        {
+            "id": "64590",
+            "weight": 0.34168124198913574,
+            "source": "hope",
+            "target": "thought"
+        },
+        {
+            "id": "64765",
+            "weight": 0.340619295835495,
+            "source": "building",
+            "target": "space"
+        }
+    ]
+}
