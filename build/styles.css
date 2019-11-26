@@ -23,6 +23,14 @@ body, html {
 	width:50%;
 	animation: fadeIn 0.8s ease-in-out;
 }
+.item h1 {
+	font-size:1em;
+	color:#666666;
+}
+.item h2 {
+	font-weight:100;
+	margin:0%;
+}
 h1 {
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight:200;
