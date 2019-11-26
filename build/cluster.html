@@ -3,6 +3,15 @@
   circle {
     cursor:pointer;
   }
+  .positive {
+    fill:#071823;
+  }
+  .negative {
+    fill:#9c9198;
+  }
+  .none {
+    fill:#CCCCCC;
+  }
 </style>
 <body>
 <svg id='viz'></svg>
@@ -77,6 +86,7 @@ var node = container.append("g").attr("class", "nodes")
     .enter()
     .append("circle")
     .attr("r", 5)
+    .attr("class",function(d){return d.bing_value})
     .attr("fill", function(d,i) { return color(d.weight); })
 
 node.on("mouseover", focus).on("mouseout", unfocus);
