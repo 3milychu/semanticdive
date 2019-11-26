@@ -10,8 +10,8 @@
 
 <script src='https://d3js.org/d3.v5.min.js'></script>
 <script>
-var width = 800;
-var height = 600;
+var width = window.innerWidth;
+var height = window.innerHeight;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 d3.json("../data/demo/backbone.json").then(function(graph) {
