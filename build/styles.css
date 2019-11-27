@@ -63,6 +63,53 @@ p {
     padding: 5%;
     border: 0.05em solid #CCCCCC;
 }
+.tooltip {
+	display:none;
+	position:fixed;
+	padding:2%;
+	background-color:white;
+	border:0.05em solid #1d1d1d;
+	border-radius:0.05em;
+}
+.tooltip close {
+	width: 90%;
+    padding: 4%;
+    border: 0.05em solid #1d1d1d;
+    font-size: 0.5em;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+}
+.tooltip close:hover {
+	background-color:#1d1d1d;
+	color:#F2F2F2;
+}
+.tooltip p {
+	font-size:0.8em;
+
+}
+.tooltip em {
+	font-style:normal;
+	font-weight:900;
+}
+/*cluster view*/
+svg {
+	position:absolute;
+	top:0;
+}
+circle{
+	cursor:pointer;
+}
+.negative {
+	fill:#666666;
+}
+.positive {
+	fill:#1d1d1d;
+}
+.none {
+	fill:#CCCCCC;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity:0;

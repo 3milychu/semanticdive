@@ -33,6 +33,12 @@ User requirements <https://github.com/3milychu/semanticdive/tree/master/wirefram
 <kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/1.png?raw=true" width="200"></kbd>
 <kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/2.png?raw=true" width="200"></kbd>
 <kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/3.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/4.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/5.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/6.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/7.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/8.png?raw=true" width="200"></kbd>
+<kbd><img src="https://github.com/3milychu/semanticdive/blob/master/wireframe/wireframe/9.png?raw=true" width="200"></kbd>
 </p>
 
 ## Build

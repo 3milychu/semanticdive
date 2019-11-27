@@ -1,5 +1,8 @@
 let main = document.querySelector('#main')
 	path = '../data/demo/backbone.json'
+    t = d3.transition()
+        .duration(150)
+        .ease(d3.easeLinear);
 
 d3.csv('components.csv')
 	.then(function(data){
@@ -55,7 +58,7 @@ function summarize(results){
 	d3.json(results)
 		.then(function(results){
 			cluster()
-			wordcount(results)
+			// wordcount(results)
 			// avgsent(results)
 			// topsent(results)
 			// clusterscards(results)
@@ -77,10 +80,25 @@ function wordcount(results){
 	wordcount.innerHTML+="<h2>"+ results['nodes'].length +"</h2>"
 }
 
+function createElement(location,element,class_name,id){
+   target = document.querySelector(location)
+   el = document.createElement(element)
+   if(class_name!=null){
+    el.setAttribute('class',class_name)
+   }
+   if(id!=null){
+    el.setAttribute('id',id)
+   }
+   target.appendChild(el)
+}
+
 function cluster(){
+
 let width = window.innerWidth
 	height = window.innerHeight
 	color = d3.scaleOrdinal(d3.schemeCategory10);
+
+createElement('body','div','tooltip','clustertooltip')
 
 d3.json(path).then(function(graph) {
 
@@ -99,7 +117,7 @@ graph.nodes.forEach(function(d, i) {
 });
 
 let labelLayout = d3.forceSimulation(label.nodes)
-    .force("charge", d3.forceManyBody().strength(0))
+    .force("charge", d3.forceManyBody().strength(-2))
     .force("link", d3.forceLink(label.links).distance(0).strength(2));
 
 let graphLayout = d3.forceSimulation(graph.nodes)
@@ -122,14 +140,17 @@ function neigh(a, b) {
 }
 
 
-var svg = d3.select("#vis").attr("width", width).attr("height", height);
+var svg = d3.select("#vis")
+    .attr("viewBox", "0 0 " + width+ " " + height )
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
 var container = svg.append("g");
 
-svg.call(
-    d3.zoom()
-        .scaleExtent([.1, 4])
-        .on("zoom", function() { container.attr("transform", d3.event.transform); })
-);
+// svg.call(
+//     d3.zoom()
+//         .scaleExtent([.1, 4])
+//         .on("zoom", function() { container.attr("transform", d3.event.transform); })
+// );
 
 var link = container.append("g").attr("class", "links")
     .selectAll("line")
@@ -148,7 +169,10 @@ var node = container.append("g").attr("class", "nodes")
     .attr("class",function(d){return d.bing_value})
     .attr("fill", function(d,i) { return color(d.weight); })
 
-node.on("mouseover", focus).on("mouseout", unfocus);
+node
+    .on("mouseover", focus)
+    .on("click", reveal)
+    .on("mouseout", unfocus);
 
 node.call(
     d3.drag()
@@ -168,7 +192,9 @@ var labelNode = container.append("g").attr("class", "labelNodes")
     .style("font-size", 12)
     .style("pointer-events", "none"); // to prevent mouseover/drag capture
 
-node.on("mouseover", focus).on("mouseout", unfocus);
+node
+    .on("mouseover", focus)
+    .on("mouseout", unfocus);
 
 function ticked() {
 
@@ -205,22 +231,49 @@ function fixna(x) {
 
 function focus(d) {
     var index = d3.select(d3.event.target).datum().index;
-    node.style("opacity", function(o) {
+    node
+    .style("opacity", function(o) {
         return neigh(index, o.index) ? 1 : 0.1;
-    });
+    })
+    .transition(t);
     labelNode.attr("display", function(o) {
       return neigh(index, o.node.index) ? "block": "none";
-    });
+    })
+     .transition(t);
     link.style("opacity", function(o) {
         return o.source.index == index || o.target.index == index ? 1 : 0.1;
-    });
+    })
+     .transition(t);
 }
 
 function unfocus() {
-   labelNode.attr("display", "block");
-   node.style("opacity", 1);
-   link.style("opacity", 1);
+   labelNode.attr("display", "block").transition(t);
+   node.style("opacity", 1) .transition(t);
+   link.style("opacity", 1) .transition(t);
 }
+
+function getpos(event) {
+    var e = window.event;
+    x = e.clientX + "px";
+    y = e.clientY + "px";
+}
+
+function reveal(d){
+    tooltip = document.querySelector('#clustertooltip')
+    getpos()
+    tooltip.style.display="block"
+    tooltip.style.left=x
+    tooltip.style.top=y
+    tooltip.innerHTML='<p><em>Sentiment</em> '+d['bing_value']+"</p>"
+    tooltip.innerHTML+='<p><em>Sentiment value</em> '+d['afinn_value'] +"</p>"
+    tooltip.innerHTML+='<p><em>Emotion</em> '+d['nrc_value'] + "</p>"
+    tooltip.innerHTML+="<close>Return</close>"
+    close = tooltip.querySelector('close')
+    close.onclick=function() {
+        tooltip.style.display="none"
+    }
+}
+
 
 function updateLink(link) {
     link.attr("x1", function(d) { return fixna(d.source.x); })
