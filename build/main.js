@@ -1,40 +1,51 @@
-let main = document.querySelector('#main')
-	path = '../data/demo/backbone.json'
-    t = d3.transition()
+const main = document.querySelector('#main')
+      path = '../data/demo/backbone.json'
+      t = d3.transition()
         .duration(150)
         .ease(d3.easeLinear);
 
 d3.csv('components.csv')
-	.then(function(data){
-		newProject(data)
+	.then(function(components){
+		newProject(components)
 	})
 	.catch(function(error){
 		console.log(error)
 	})
 
-function newProject(data){
+function newProject(components){
 	container = document.createElement('div')
 	container.setAttribute('class',"container")
-	container.innerHTML=data[0]['content']
+	container.innerHTML=components[0]['content']
 	main.appendChild(container)
 	start = document.querySelector('#start')
 	start.onclick=function() {
-		chooseData(data)
+		chooseData(components)
 	}
 }
 
-function chooseData(data){
+function chooseData(components){
 	clear('#main')
+    clear('svg')
+    navStatus()
+    updateNav('back0','')
+    goBack0();
+    function goBack0() {
+        el=document.querySelector('#back0')
+        console.log(el)
+        el.onclick=function() {
+            location.reload()
+        }
+    }
 	container = document.createElement('div')
 	container.setAttribute('class',"container")
-	container.innerHTML=data[1]['content']
+	container.innerHTML=components[1]['content']
 	main.appendChild(container)
-	submit = document.querySelector('#selectdata')
 	select = document.querySelector('select')
-	selectdata.onclick=function() {
+	select.onchange=function() {
+        console.log('changed')
 		if (select.value == "demo workshop"){
-			myreport(data)
-			summarize(path)
+			myreport(components)
+			summarize(path, components)
 		} else {
 			// upload data 
 		}
@@ -47,17 +58,25 @@ function clear(item){
 	target.innerHTML=""
 }
 
-function myreport(data){
+function navStatus(){
+    nav = document.querySelector('.nav')
+    if(nav!=null){
+        nav.remove()
+    }
+    appendElement('body','div','nav')
+}
+
+function myreport(components){
 	clear('#main')
 	container = document.createElement('div')
 	container.setAttribute('class',"container")
 	main.appendChild(container)
 }
 
-function summarize(results){
+function summarize(results, components){
 	d3.json(results)
 		.then(function(results){
-			cluster()
+			cluster(components)
 			// wordcount(results)
 			// avgsent(results)
 			// topsent(results)
@@ -69,7 +88,6 @@ function summarize(results){
 		})
 }
 
-
 function wordcount(results){
 	container=document.querySelector('.container')
 	wordcount = document.createElement('div')
@@ -80,7 +98,8 @@ function wordcount(results){
 	wordcount.innerHTML+="<h2>"+ results['nodes'].length +"</h2>"
 }
 
-function createElement(location,element,class_name,id){
+// append something
+function appendElement(location,element,class_name,id){
    target = document.querySelector(location)
    el = document.createElement(element)
    if(class_name!=null){
@@ -92,13 +111,49 @@ function createElement(location,element,class_name,id){
    target.appendChild(el)
 }
 
-function cluster(){
+// prepend something
+function prependElement(location,element,class_name,id){
+   target = document.querySelector(location)
+   el = document.createElement(element)
+   if(class_name!=null){
+    el.setAttribute('class',class_name)
+   }
+   if(id!=null){
+    el.setAttribute('id',id)
+   }
+   target.prepend(el)
+}
 
-let width = window.innerWidth
-	height = window.innerHeight
+// update nav
+function updateNav(id, content) {
+nav = document.querySelector('.nav')
+nav.innerHTML="<div class='return' id="+id+"><</div>"+content
+}
+
+function cluster(components){
+
+// add navigation and tooltip
+appendElement('body','div','tooltip','clustertooltip')
+
+svg = document.querySelector('svg')
+svg.style.display="block"
+
+updateNav('back1','<h1>Results</h1>')
+goBack1();
+
+function goBack1() {
+    el=document.querySelector('#back1')
+    console.log(el)
+    el.onclick=function() {
+        console.log('go back')
+        chooseData(components)
+    }
+}
+
+
+let width = svg.clientWidth/0.8
+	height = svg.clientHeight
 	color = d3.scaleOrdinal(d3.schemeCategory10);
-
-createElement('body','div','tooltip','clustertooltip')
 
 d3.json(path).then(function(graph) {
 

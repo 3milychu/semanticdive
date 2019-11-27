@@ -1,14 +1,14 @@
-﻿index,content,
+﻿index,content
 a,"<h1>semantic dive</h1>
 <p>Visualize semantic associations from user research studies with automatic clustering</p>
-<div class=""button"" id=""start"">new project</div>",
+<div class=""button"" id=""start"">new project</div>"
 b,"<h1>select data</h1>
 <p>Select a template data source, or upload your own. Formats accepted: .txt</p>
-<select>
+<select class=""select-css"">
+<option>- select data -</option>
 <option>demo workshop</option>
 <option>upload other</option>
-</select>
-<input id=""selectdata"" type=""submit"">",
+</select>"
 c,"<h1>new project</h1>
 <div class=""edit"">&#9998;</div>
-<div id=""summary_results""></div>",
+<div id=""summary_results""></div>"
