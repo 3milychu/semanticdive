@@ -27,7 +27,7 @@ function chooseData(components){
 	clear('#main')
     clear('svg')
     navStatus()
-    updateNav('back0','')
+    updateNav('back0')
     goBack0();
     function goBack0() {
         el=document.querySelector('#back0')
@@ -63,7 +63,7 @@ function navStatus(){
     if(nav!=null){
         nav.remove()
     }
-    appendElement('body','div','nav')
+    prependElement('body','div','nav')
 }
 
 function myreport(components){
@@ -99,7 +99,7 @@ function wordcount(results){
 }
 
 // append something
-function appendElement(location,element,class_name,id){
+function appendElement(location,element,class_name,id=0, content=0){
    target = document.querySelector(location)
    el = document.createElement(element)
    if(class_name!=null){
@@ -107,12 +107,15 @@ function appendElement(location,element,class_name,id){
    }
    if(id!=null){
     el.setAttribute('id',id)
+   }
+   if(content!=0){
+    el.innerHTML=content
    }
    target.appendChild(el)
 }
 
 // prepend something
-function prependElement(location,element,class_name,id){
+function prependElement(location,element,class_name,id=0, content=0){
    target = document.querySelector(location)
    el = document.createElement(element)
    if(class_name!=null){
@@ -121,19 +124,28 @@ function prependElement(location,element,class_name,id){
    if(id!=null){
     el.setAttribute('id',id)
    }
+   if(content!=0){
+    el.innerHTML=content
+   }
    target.prepend(el)
 }
 
 // update nav
-function updateNav(id, content) {
+function updateNav(id, content='') {
 nav = document.querySelector('.nav')
 nav.innerHTML="<div class='return' id="+id+"><</div>"+content
 }
 
 function cluster(components){
 
-// add navigation and tooltip
-appendElement('body','div','tooltip','clustertooltip')
+// add stuff
+if(document.querySelector('#clustertooltip')==null){
+   appendElement('body','div','tooltip','clustertooltip')
+}
+if(document.querySelector('.tour')==null){
+    appendElement('body','div','tour')
+    appendElement('.tour','div','scene','scene1')
+}
 
 svg = document.querySelector('svg')
 svg.style.display="block"
