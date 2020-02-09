@@ -392,7 +392,8 @@ function reveal(d){
     tooltip.style.display="block"
     tooltip.style.left=x
     tooltip.style.top=y
-    tooltip.innerHTML='<p><em>Sentiment</em> '+d['bing_value']+"</p>"
+    tooltip.innerHTML='<h2>'+d['label']+"</h2>"
+    tooltip.innerHTML+='<p><em>Sentiment</em> '+d['bing_value']+"</p>"
     tooltip.innerHTML+='<p><em>Sentiment value</em> '+d['afinn_value'] +"</p>"
     tooltip.innerHTML+='<p><em>Emotion</em> '+d['nrc_value'] + "</p>"
     tooltip.innerHTML+="<close>Return</close>"

@@ -150,6 +150,9 @@ select:focus {
 	border-radius:0.05em;
 	z-index:102;
 }
+.tooltip h2 {
+	margin:0%;
+}
 .tooltip close {
 	width: 90%;
     padding: 4%;
