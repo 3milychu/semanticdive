@@ -2,6 +2,7 @@ const main = document.querySelector('#main')
       body = document.querySelector('body')
       path = '../data/demo/backbone.json'
       percent = d3.format(".0%")
+      decimal = d3.format(",.2f")
       t = d3.transition()
         .duration(150)
         .ease(d3.easeLinear);
@@ -79,10 +80,7 @@ function summarize(results, components){
 	d3.json(results)
 		.then(function(results){
 			cluster(components)
-			// wordcount(results)
-			// avgsent(results)
-			// topsent(results)
-			// clusterscards(results)
+			report(results)
 
 		})
 		.catch(function(error){
@@ -90,14 +88,86 @@ function summarize(results, components){
 		})
 }
 
-function wordcount(results){
+function report(results){
 	container=document.querySelector('.container')
+    // report container
+    report = document.createElement('div')
+    report.setAttribute('class','report')
+    // total word count
 	wordcount = document.createElement('div')
 	wordcount.setAttribute('class','item')
-	container.appendChild(wordcount)
+	report.appendChild(wordcount)
+    container.appendChild(report)
 	wordcount.innerHTML+="<h1>Word count</h1>"
 	wordcount.innerHTML+="<div class='info'></div>"
 	wordcount.innerHTML+="<h2>"+ results['nodes'].length +"</h2>"
+    // source nodes with highest number of links
+    nodes = results.nodes
+    links = results.links
+    let clusters = [];
+    let sources = links.map(item=>item.source)
+    let unique_sources = sources.filter(unique)
+    const arrSum = arr => arr.reduce((a,b) => a + b, 0)
+    unique_sources.forEach((source)=>{
+      var count = sources.reduce(function(n, val) {
+        return n + (val === source);
+      }, 0);
+      if(count>1){
+        clusters.push({
+            source:source,
+            sum: count
+        })
+      }
+    })
+
+    let ordered = clusters.sort(function(a,b){
+      return b.sum - a.sum
+    })
+    clustercount = document.createElement('div')
+    clustercount.setAttribute('class','item')
+    clustercount.innerHTML+="<h1>Top connectors</h1>"
+    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[0]['source'] +"</h2>" + "<p>" + ordered[0]['sum'] +" links</p></div>"
+    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[1]['source'] +"</h2>" + "<p>" + ordered[1]['sum'] +" links</p></div>"
+    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[2]['source'] +"</h2>" + "<p>" + ordered[2]['sum'] +" links</p></div>"
+    report.appendChild(clustercount)
+    // average sentiment
+    sentiment_values = [];
+    nodes.forEach((node)=>sentiment_values.push(node.afinn_value))
+    console.log(sentiment_values)
+    sent_sum = arrSum(sentiment_values)
+    sent_avg = decimal(sent_sum/sentiment_values.length)
+    sent_summary = document.createElement('div')
+    sent_summary.setAttribute('class','item')
+    sent_summary.innerHTML+="<h1>Average sentiment</h1>"
+    sent_summary.innerHTML+="<h2>"+sent_avg+"</h2>"
+    report.appendChild(sent_summary)
+    // Top sentiments
+    let sentiments = [];
+    let nrc_values = nodes.map(item=>item.nrc_value)
+    let unique_sentiments = nrc_values.filter(unique)
+    unique_sentiments.forEach((sentiment)=>{
+      var count = nrc_values.reduce(function(n, val) {
+        return n + (val === sentiment);
+      }, 0);
+      if(count>1){
+        sentiments.push({
+            sentiment:sentiment,
+            sum: count
+        })
+      }
+    })
+
+    let ordered_sentiment = sentiments.sort(function(a,b){
+      return b.sum - a.sum
+    })
+    console.log(ordered_sentiment)
+    sentimentrank = document.createElement('div')
+    sentimentrank.setAttribute('class','item')
+    sentimentrank.innerHTML+="<h1>Top sentiments</h1>"
+    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[0]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[0]['sum'] +" words</p></div>"
+    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[1]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[1]['sum'] +" words</p></div>"
+    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[2]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[2]['sum'] +" words</p></div>"
+    report.appendChild(sentimentrank)
 }
 
 // append something
@@ -202,13 +272,11 @@ function insight1(graph){
         }
     })
     emotions = emotions.filter(unique)
+    console.log(emotions)
     examples = []
-    random = Math.floor(Math.random()*emotions.length)+0
+    random = Math.floor(Math.random()*emotions.length)+1
     for(i=0;i<random;i++){
-        example = Math.floor(Math.random()*emotions.length)+0
-        if(examples.indexOf(random) === -1){
-            examples.push(" "+ emotions[example]);
-        }
+        examples.push(" "+emotions[i])
     }
 
     text = "The "+ total + " words in your document are " + percent(positive.length/total) + " positive, " + 
@@ -220,7 +288,7 @@ function insight1(graph){
     container.prepend(insight1)
     insight6 = document.createElement('p')
     insight6.setAttribute('id',"insight6")
-    insight6.innerHTML = "or head to the <a href='#summaryreport'>summmary report</a>"
+    insight6.innerHTML = "or explore the <a href='#explore'>clusters</a>"
     container.appendChild(insight6)
     el=document.querySelector('#back1')
     el.onclick=function() {
@@ -479,7 +547,7 @@ next.onclick=function() {
             insight1 = document.createElement('div')
             insight1.setAttribute('class','insight')
             insight.innerHTML=text
-            next.innerHTML='Explore'
+            next.innerHTML='View insights'
             var svg = document.querySelector('svg')
             svg.style.transform="scale(1)"
             d3.selectAll('text').style('opacity',0)
@@ -522,10 +590,12 @@ next.onclick=function() {
             next.onclick=function() {
                 insight5()
                 function insight5() {
+                    report = document.querySelector('.report')
+                    report.style.top="100vh"
                     var svg = document.querySelector('svg')
                     svg.style.transform="scale(1)"
-                    insight.innerHTML='Explore clusters further'
-                    next.innerHTML='Dive In'
+                    insight.innerHTML='See the highlights'
+                    next.innerHTML='View insights'
                      d3.selectAll('text').style('opacity',1)
                     insight6.style.display="block"
                     el=document.querySelector('#back1')
@@ -533,6 +603,14 @@ next.onclick=function() {
                         insight4()
                     }
                 }
+            next.onclick=function() {
+                report = document.querySelector('.report')
+                report.style.top="12vh"
+                el=document.querySelector('#back1')
+                    el.onclick=function() {
+                        insight5()
+                    }
+            }
             }
         }
 

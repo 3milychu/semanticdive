@@ -209,6 +209,25 @@ circle{
 #insight6{
 	display:none;
 }
+.report {
+	position: fixed;
+    top: 100vh;
+    height:85vh;
+    width: 80%;
+    background-color: white;
+    z-index: 200;
+    left: 0;
+    padding: 5% 10%;
+    transition:1s ease-in-out;
+}
+.report .card {
+	display:inline-block;
+	margin-right:5%;
+	border:0.05em solid #1d1d1d;
+	border-radius:0.5em;
+	text-align:center;
+	padding:2%;
+}
 @media screen and (max-width:767px){
 	.container {
 		width:80%;
