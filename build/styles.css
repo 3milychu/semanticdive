@@ -240,6 +240,7 @@ circle{
 	padding:2%;
 }
 .scroll-post {
+	width:100%;
 	overflow-x:scroll;
 	overflow-y:hidden;
 	white-space:pre;
