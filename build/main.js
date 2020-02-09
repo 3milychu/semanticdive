@@ -1,5 +1,7 @@
 const main = document.querySelector('#main')
+      body = document.querySelector('body')
       path = '../data/demo/backbone.json'
+      percent = d3.format(".0%")
       t = d3.transition()
         .duration(150)
         .ease(d3.easeLinear);
@@ -149,6 +151,15 @@ if(document.querySelector('.tour')==null){
 
 svg = document.querySelector('svg')
 svg.style.display="block"
+main.style.position="absolute"
+main.style.bottom="0%"
+container=document.querySelector('.container')
+next = document.createElement('div')
+next.setAttribute('class','next')
+next.setAttribute('id','results2')
+next.classList.add('button')
+next.innerHTML='See the words'
+container.appendChild(next)
 
 updateNav('back1','<h1>Results</h1>')
 goBack1();
@@ -158,16 +169,65 @@ function goBack1() {
     console.log(el)
     el.onclick=function() {
         console.log('go back')
+        main.style.position="relative"
+        main.style.bottom="auto"
+        main.style.marginTop="12vh"
+        main.style.padding="5%"
+        svg = document.querySelector('svg')
+        svg.style.display="none"
         chooseData(components)
     }
 }
 
 
-let width = svg.clientWidth/0.8
-	height = svg.clientHeight
+let width = svg.clientWidth/0.4
+	height = svg.clientHeight/1.5
 	color = d3.scaleOrdinal(d3.schemeCategory10);
 
-d3.json(path).then(function(graph) {
+d3.json(path)
+.then(function(graph) {
+
+insight1(graph)
+
+function insight1(graph){
+    container = document.querySelector('.container')
+    total = graph.nodes.length
+    positive = graph.nodes.filter((item)=>item.bing_value=="positive")
+    negative = graph.nodes.filter((item)=>item.bing_value=="negative")
+    neutral = graph.nodes.filter((item)=>item.bing_value=="none")
+    emotions = []
+    graph.nodes.forEach(function(item){
+        if(item.nrc_value!="none"){
+        emotions.push(item.nrc_value)
+        }
+    })
+    emotions = emotions.filter(unique)
+    examples = []
+    random = Math.floor(Math.random()*emotions.length)+0
+    for(i=0;i<random;i++){
+        example = Math.floor(Math.random()*emotions.length)+0
+        if(examples.indexOf(random) === -1){
+            examples.push(" "+ emotions[example]);
+        }
+    }
+
+    text = "The "+ total + " words in your document are " + percent(positive.length/total) + " positive, " + 
+    percent(negative.length/total) + " negative and " + percent(neutral.length/total) + " neutral, " +
+    "representing " + emotions.length + " core emotions, including: " + examples + "."
+    insight1 = document.createElement('div')
+    insight1.setAttribute('class','insight')
+    insight1.innerHTML=text
+    container.prepend(insight1)
+    insight6 = document.createElement('p')
+    insight6.setAttribute('id',"insight6")
+    insight6.innerHTML = "or head to the <a href='#summaryreport'>summmary report</a>"
+    container.appendChild(insight6)
+    el=document.querySelector('#back1')
+    el.onclick=function() {
+       goBack1()
+    }
+}
+
 
 let label = {
     'nodes': [],
@@ -225,7 +285,7 @@ var link = container.append("g").attr("class", "links")
     .enter()
     .append("line")
     .attr("stroke", "#aaa")
-    .attr("stroke-width", "0px");
+    .attr("stroke-width", "0.01em");
 
 var node = container.append("g").attr("class", "nodes")
     .selectAll("g")
@@ -257,6 +317,7 @@ var labelNode = container.append("g").attr("class", "labelNodes")
     .style("fill", "#555")
     .style("font-family", "Arial")
     .style("font-size", 12)
+    .style("opacity",0)
     .style("pointer-events", "none"); // to prevent mouseover/drag capture
 
 node
@@ -373,6 +434,117 @@ function dragended(d) {
     d.fy = null;
 }
 
+next.onclick=function() {
+    insight2()
+    function insight2(){
+    insight = document.querySelector('.insight')
+    var svg = document.querySelector('svg')
+    svg.style.transform="scale(1.5)"
+    main.style.marginTop="0%"
+    main.style.paddingTop="0%"
+    main.style.zIndex="102"
+    insight.innerHTML='Here are all the words in your corpus'
+    next.innerHTML='See connections'
+    d3.selectAll('text').style('opacity',1)
+    insight6.style.display="none"
+    el=document.querySelector('#back1')
+    el.onclick=function() {
+        insight1(graph)
+        function insight1(graph){
+            container = document.querySelector('.container')
+            total = graph.nodes.length
+            positive = graph.nodes.filter((item)=>item.bing_value=="positive")
+            negative = graph.nodes.filter((item)=>item.bing_value=="negative")
+            neutral = graph.nodes.filter((item)=>item.bing_value=="none")
+            emotions = []
+            graph.nodes.forEach(function(item){
+                if(item.nrc_value!="none"){
+                emotions.push(item.nrc_value)
+                }
+            })
+            emotions = emotions.filter(unique)
+            examples = []
+            random = Math.floor(Math.random()*emotions.length)+0
+            for(i=0;i<random;i++){
+                example = Math.floor(Math.random()*emotions.length)+0
+                if(examples.indexOf(random) === -1){
+                    examples.push(" "+ emotions[example]);
+                    }
+                }
+
+            text = "The "+ total + " words in your document are " + percent(positive.length/total) + " positive, " + 
+            percent(negative.length/total) + " negative and " + percent(neutral.length/total) + " neutral, " +
+            "representing " + emotions.length + " core emotions, including: " + examples + "."
+            insight1 = document.createElement('div')
+            insight1.setAttribute('class','insight')
+            insight.innerHTML=text
+            next.innerHTML='Explore'
+            var svg = document.querySelector('svg')
+            svg.style.transform="scale(1)"
+            d3.selectAll('text').style('opacity',0)
+            el=document.querySelector('#back1')
+            el.onclick=function() {
+               goBack1()
+            }
+
+        }
+    }
+    }
+    next.onclick=function(){
+        insight3()
+        function insight3(){
+            insight.innerHTML='Hover over points to see connections between words'
+            next.innerHTML='See sentiment detail'
+             insight6.style.display="none"
+             var svg = document.querySelector('svg')
+                    svg.style.transform="scale(1.5)"
+              d3.selectAll('text').style('opacity',1)
+            el=document.querySelector('#back1')
+            el.onclick=function() {
+                insight2()
+            }
+        }
+        next.onclick=function() {
+            insight4()
+            function insight4(){
+            insight.innerHTML='Click on points to see sentiment analysis'
+            next.innerHTML='Explore'
+            insight6.style.display="none"
+            var svg = document.querySelector('svg')
+                    svg.style.transform="scale(1.5)"
+             d3.selectAll('text').style('opacity',1)
+            el=document.querySelector('#back1')
+            el.onclick=function() {
+                insight3()
+            }
+            }
+            next.onclick=function() {
+                insight5()
+                function insight5() {
+                    var svg = document.querySelector('svg')
+                    svg.style.transform="scale(1)"
+                    insight.innerHTML='Explore clusters further'
+                    next.innerHTML='Dive In'
+                     d3.selectAll('text').style('opacity',1)
+                    insight6.style.display="block"
+                    el=document.querySelector('#back1')
+                    el.onclick=function() {
+                        insight4()
+                    }
+                }
+            }
+        }
+
+    }
+}
+
 }); // d3.json
 }
+
+// helpers
+
+const unique = (value, index, self) => {
+  return self.indexOf(value) === index
+}
+
 

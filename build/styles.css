@@ -15,7 +15,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background:white;
-    z-index:0;
+    z-index:101;
 }
 .nav h1 {
 	margin: auto;
@@ -35,6 +35,9 @@ body, html {
 	font-weight:100;
 	animation: fade 0.8s ease-in-out;
 	z-index:2;
+}
+a {
+	color:#1d1d1d;
 }
 #main {
 	position:relative;
@@ -145,6 +148,7 @@ select:focus {
 	background-color:white;
 	border:0.05em solid #1d1d1d;
 	border-radius:0.05em;
+	z-index:102;
 }
 .tooltip close {
 	width: 90%;
@@ -171,10 +175,14 @@ select:focus {
 svg {
 	display:none;
 	position:absolute;
-	top:0;
+	top:10vh;
 	width:100vw;
-	height:100vh;
-	z-index:-2;
+	height:70vh;
+	z-index:100;
+	transition:1s ease-in-out;
+}
+node {
+	transition:0.25s ease-in-out;
 }
 circle{
 	cursor:pointer;
@@ -187,6 +195,16 @@ circle{
 }
 .none {
 	fill:#CCCCCC;
+}
+.next {
+	z-index:101;
+}
+.insight {
+	text-align:center;
+	margin-bottom:5%;
+}
+#insight6{
+	display:none;
 }
 @media screen and (max-width:767px){
 	.container {
