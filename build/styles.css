@@ -52,6 +52,9 @@ a {
 	width:50%;
 	animation: fadeIn 0.8s ease-in-out;
 }
+.item {
+	margin-bottom:2%;
+}
 .item h1 {
 	font-size:1em;
 	color:#666666;
@@ -209,7 +212,7 @@ circle{
 #insight6{
 	display:none;
 }
-.report {
+.aligner {
 	position: fixed;
     top: 100vh;
     height:85vh;
@@ -217,8 +220,16 @@ circle{
     background-color: white;
     z-index: 200;
     left: 0;
-    padding: 5% 10%;
+    padding: 0% 10%;
     transition:1s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.report {
+	width:80%;
+	border-radius:1em;
+	box-shadow: 1em 1em 3em #F2f2f2;
 }
 .report .card {
 	display:inline-block;
@@ -227,6 +238,10 @@ circle{
 	border-radius:0.5em;
 	text-align:center;
 	padding:2%;
+}
+.scroll-post {
+	overflow-y:scroll;
+	white-space:pre;
 }
 @media screen and (max-width:767px){
 	.container {

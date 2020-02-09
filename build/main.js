@@ -90,6 +90,9 @@ function summarize(results, components){
 
 function report(results){
 	container=document.querySelector('.container')
+    // aligner
+    aligner = document.createElement('div')
+    aligner.setAttribute('class','aligner')
     // report container
     report = document.createElement('div')
     report.setAttribute('class','report')
@@ -97,7 +100,8 @@ function report(results){
 	wordcount = document.createElement('div')
 	wordcount.setAttribute('class','item')
 	report.appendChild(wordcount)
-    container.appendChild(report)
+    aligner.appendChild(report)
+    container.appendChild(aligner)
 	wordcount.innerHTML+="<h1>Word count</h1>"
 	wordcount.innerHTML+="<div class='info'></div>"
 	wordcount.innerHTML+="<h2>"+ results['nodes'].length +"</h2>"
@@ -126,10 +130,12 @@ function report(results){
     clustercount = document.createElement('div')
     clustercount.setAttribute('class','item')
     clustercount.innerHTML+="<h1>Top connectors</h1>"
-    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[0]['source'] +"</h2>" + "<p>" + ordered[0]['sum'] +" links</p></div>"
-    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[1]['source'] +"</h2>" + "<p>" + ordered[1]['sum'] +" links</p></div>"
-    clustercount.innerHTML+="<div class='card'><h2>"+ ordered[2]['source'] +"</h2>" + "<p>" + ordered[2]['sum'] +" links</p></div>"
-    report.appendChild(clustercount)
+    scrollpost1 = document.createElement('div')
+    scrollpost1.setAttribute('class','scroll-post')
+    ordered.forEach(function(item){
+        scrollpost1.innerHTML+="<div class='card'><h2>"+ item['source'] +"</h2>" + "<p>" + item['sum'] +" links</p></div>"
+    })
+    report.appendChild(scrollpost1)
     // average sentiment
     sentiment_values = [];
     nodes.forEach((node)=>sentiment_values.push(node.afinn_value))
@@ -164,9 +170,12 @@ function report(results){
     sentimentrank = document.createElement('div')
     sentimentrank.setAttribute('class','item')
     sentimentrank.innerHTML+="<h1>Top sentiments</h1>"
-    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[0]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[0]['sum'] +" words</p></div>"
-    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[1]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[1]['sum'] +" words</p></div>"
-    sentimentrank.innerHTML+="<div class='card'><h2>"+ ordered_sentiment[2]['sentiment'] +"</h2>" + "<p>" + ordered_sentiment[2]['sum'] +" words</p></div>"
+    scrollpost2 = document.createElement('div')
+    scrollpost2.setAttribute('class','scroll-post')
+    ordered_sentiment.forEach(function(item){
+        scrollpost2.innerHTML+="<div class='card'><h2>"+ item['sentiment'] +"</h2>" + "<p>" + item['sum'] +" words</p></div>"
+    })
+    sentimentrank.appendChild(scrollpost2)
     report.appendChild(sentimentrank)
 }
 
@@ -590,8 +599,8 @@ next.onclick=function() {
             next.onclick=function() {
                 insight5()
                 function insight5() {
-                    report = document.querySelector('.report')
-                    report.style.top="100vh"
+                    aligner = document.querySelector('.report')
+                    aligner.style.top="100vh"
                     var svg = document.querySelector('svg')
                     svg.style.transform="scale(1)"
                     insight.innerHTML='See the highlights'
@@ -604,8 +613,8 @@ next.onclick=function() {
                     }
                 }
             next.onclick=function() {
-                report = document.querySelector('.report')
-                report.style.top="12vh"
+                aligner = document.querySelector('.aligner')
+                aligner.style.top="13vh"
                 el=document.querySelector('#back1')
                     el.onclick=function() {
                         insight5()
