@@ -53,7 +53,7 @@ a {
 	animation: fadeIn 0.8s ease-in-out;
 }
 .item {
-	margin-bottom:2%;
+	margin-bottom:4%;
 }
 .item h1 {
 	font-size:1em;
@@ -240,7 +240,8 @@ circle{
 	padding:2%;
 }
 .scroll-post {
-	overflow-y:scroll;
+	overflow-x:scroll;
+	overflow-y:hidden;
 	white-space:pre;
 }
 @media screen and (max-width:767px){

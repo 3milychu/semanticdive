@@ -135,7 +135,8 @@ function report(results){
     ordered.forEach(function(item){
         scrollpost1.innerHTML+="<div class='card'><h2>"+ item['source'] +"</h2>" + "<p>" + item['sum'] +" links</p></div>"
     })
-    report.appendChild(scrollpost1)
+    clustercount.appendChild(scrollpost1)
+    report.appendChild(clustercount)
     // average sentiment
     sentiment_values = [];
     nodes.forEach((node)=>sentiment_values.push(node.afinn_value))
