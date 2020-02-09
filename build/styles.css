@@ -251,6 +251,16 @@ circle{
 	.menu {
 		margin:2% 5%;
 	}
+	.report {
+		width:100%;
+		box-shadow:none;
+	}
+	.report .card {
+		margin-right:10%;
+	}
+	.aligner {
+		padding:0% 0% 0% 20%;
+	}
 }
 @keyframes fadeIn {
 	0% {
