@@ -600,7 +600,7 @@ next.onclick=function() {
             next.onclick=function() {
                 insight5()
                 function insight5() {
-                    aligner = document.querySelector('.report')
+                    aligner = document.querySelector('.aligner')
                     aligner.style.top="100vh"
                     var svg = document.querySelector('svg')
                     svg.style.transform="scale(1)"
